@@ -1,9 +1,16 @@
 //Colors
-$navbar-light-color:        #4F4F4F !default;
-$navbar-light-hover-color:  #2E3690 !default;
-$navbar-light-active-color: #2E3690;
 $primary:                   #2E3690;
-$secondary:                 #cc0033;
+$secondary:                 #1172BA;
+$light-gray:                #F2F2F2;
+$dark-gray:                 #333333;    
+$black:                     #222222;
+$white:                     #ffffff;
+$dropdown-divider-bg:       #E0E0E0;
+$navbar-light-color:        #4F4F4F !default;
+$navbar-light-hover-color:  $primary !default;
+$navbar-light-active-color: $primary;s
+
+
 $info:                      #337ab7;
 $background-light-gray:     #f3f3f3;
 $text-gray:                 #bbb;
@@ -20,15 +27,13 @@ $linkedin-color:            #0077b5;
 $pinterest-color:           #CB2027;
 $gplus-color:               #dd4b39;
 
-$light-gray:                #F2F2F2;
-$dark-gray:                 #333333;    
-$black:                     #222222;
-$white:                     #ffffff;
-$dropdown-divider-bg:       #E0E0E0;
+
+
 
 
 //Responsive
 $enable-responsive-font-sizes: true;
+
 
 //Sizing
 $nav-link-padding-y:          1rem;
@@ -41,10 +46,10 @@ $font-size-base:              1rem !default;
 $line-height-base:            1.42857143;
 
 //Titles
-$h1-font-size:                $font-size-base * 2.4 !default;
-$h2-font-size:                $font-size-base * 2 !default;
-$h3-font-size:                $font-size-base * 1.6 !default;
-$h4-font-size:                $font-size-base * 1.4 !default;
+$h1-font-size:                $font-size-base * 5 !default;
+$h2-font-size:                $font-size-base * 3.5 !default;
+$h3-font-size:                $font-size-base * 2.25 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
 $h5-font-size:                $font-size-base * 1.2 !default;
 $h6-font-size:                $font-size-base * 1.066666667 !default;
 $headings-line-height:        1.1 !default;
@@ -59,11 +64,13 @@ $label-margin-bottom:         0.2rem;
 $form-group-margin-bottom:    0.6rem;
 
 //Buttons & Links
-$btn-padding-y-lg:            0.45rem; 
-$btn-padding-x-lg:            0.7rem;
+$btn-padding-x:               1.125rem;
+$btn-padding-y-lg:            0.6875rem; 
+$btn-padding-x-lg:            1.25rem;
 $btn-padding-y-sm:            0.40625rem;
 $btn-padding-x-sm:            0.75rem;
 $font-size-sm:                0.8125rem;
+$font-size-lg:                1rem;
 $btn-line-height-sm:          1.5;
 $btn-border-radius-sm:        0.375rem;
 $link-hover-decoration:       none;
