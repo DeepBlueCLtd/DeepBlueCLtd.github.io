@@ -1,0 +1,158 @@
+// Header pages
+.header-page {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 50px 20px;
+  overflow: hidden;
+  box-shadow: 1px 0 1px rgba(50,50,50,0.15) inset;
+  &__title {
+    background-color: rgba(0, 0, 33, 0.4);
+    padding: 10px 15px;
+    color: $white;
+    font-weight: 300;
+    margin: 20px auto 10px;
+    animation: fadeInDown 0.7s linear 1;
+  }
+}
+
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+// Header blog
+.header-blog {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% top;
+  background-attachment: fixed;
+  min-height: auto;
+  color: #000033;
+  padding: 50px 20px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 1px 0 1px rgba(50,50,50,0.15) inset;
+  &__container {
+    background-color: rgba(175, 163, 115, 0.5);
+    padding: 20px 15px;
+  }
+  &__title {
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  &__subtitle {
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  &__breadcrumbs {
+    padding: 10px 15px;
+    background-color: rgba(175, 163, 115, 0.5);
+    color: $primary;
+    font-size: 11px;
+    font-weight: 300;
+    display: flex;
+    justify-content: flex-end;
+    a {
+      color: $primary;
+      
+      padding-left: 5px;
+      padding-right: 5px;
+      @include hover-focus-active {
+        color: #4b4b4b;
+      }
+    }
+  }
+}
+
+
+
+// Form search 
+.form-search {
+  &__input {
+    height: 34px;
+    font-size: 14px;
+    line-height: 1.42857143;
+  }
+  .input-group-prepend {
+    .form-search__btn {
+      font-size: 14px;
+      line-height: 1.42857143;
+      border-top-right-radius: 0.25rem;
+      border-bottom-right-radius: 0.25rem;
+    }
+  }
+}
+
+
+// Sidebar 
+.blog-sidebar {
+  padding: 20px;
+  background-color: $white;
+  .form-search {
+    .input-group {
+      width: 100%;
+    }
+  }
+  a {
+    transition: all .3s;
+    @include hover {
+      position: relative;
+      top: 1px;
+    }
+  }
+}
+.blog-widget {
+  margin-bottom: 20px;
+  &__title {
+    color: $text-dark;
+    position: relative;
+    border-bottom: 1px solid rgba(119,119,119,.1);
+    padding: 10px 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    &::before {
+      border-bottom: 1px solid #000033;
+      bottom: -1px;
+      content: "";
+      position: absolute;
+      width: 40px
+    }
+  }
+  &__link {
+    color: $primary;
+    @include hover-focus-active {
+      color: $secondary;
+    }
+  }
+}
+
+
+
+// Pagination 
+.pagination {
+  justify-content: center;
+  &__link {
+    padding: 5px 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    &--active,
+    &:hover {
+      background-color: #000033;
+      border-color: #eee;
+      color: #fff;
+    }
+  }
+}

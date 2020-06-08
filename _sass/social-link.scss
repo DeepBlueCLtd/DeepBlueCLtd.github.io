@@ -1,0 +1,126 @@
+.social-link {
+  width: 22px;
+  height: 20px;
+  font-size: 12px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  border-radius: 2px;
+  box-shadow: 0 -2px rgba(0,0,0,0.03) inset;
+  @include hover-focus-active {
+    position: relative;
+    top: 1px;
+    transition: all .3s;
+  }
+  &.facebook {
+    background-color: $facebook-color;
+  }
+  &.twitter {
+    background-color: $twitter-color;
+  }
+  &.linkedin {
+    background-color: $linkedin-color;
+  }
+  &.pinterest {
+    background-color: $pinterest-color;
+  }
+  &.gplus {
+    background-color: $gplus-color;
+  }
+}
+
+// Share buttons
+.share-buttons {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  border-top: 1px solid rgba(0,0,0,.07);
+  padding: 15px 10px 25px 0;
+  margin: 30px 0 0;
+  &__list {
+    display: flex;
+  }
+  &__link {
+    margin-right: 8px;
+    position: relative;
+    &.facebook{
+      @include hover-focus-active {
+        width: 57px;
+      }
+      &::before {
+        content: "\f39e";
+        top: 4px;
+        left: 7px;
+      }
+    }
+    &.twitter {
+      @include hover-focus-active {
+        width: 52px;
+      }
+      &::before {
+        content: "\f099";
+        top: 5px;
+        left: 5px;
+      }
+    }
+    &.linkedin {
+      @include hover-focus-active {
+        width: 60px;
+      }
+      &::before {
+        content: "\f0e1";
+        top: 4px;
+        left: 5px;
+      }
+    }
+    &.pinterest {
+      @include hover-focus-active {
+        width: 45px;
+      }
+      &::before {
+        content: "\f231";
+        top: 5px;
+        left: 6px;
+      }
+    }
+    &.gplus {
+      @include hover-focus-active {
+        width: 60px;
+      }
+      &::before {
+        content: "\f0d5";
+        top: 4px;
+        left: 3px;
+      }
+    }
+    &::before {
+      line-height: 1;
+      display: block;
+      font-family: "Font Awesome 5 Brands";
+      font-size: 12px;
+      text-indent: 0;
+      position: absolute;
+      width: 20px;
+    }
+    
+    span {
+      display: none;
+    }
+    @include hover-focus-active {
+      cursor: pointer;
+      position: relative;
+      top: 0;
+      transition: all .6s;
+      justify-content: flex-end;
+      span {
+        display: block;
+        color: #fff;
+        padding: 2px 5px;
+        line-height: 1;
+        font-weight: 400;
+      }
+    }
+  }
+}
