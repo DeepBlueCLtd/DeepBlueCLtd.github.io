@@ -1,0 +1,89 @@
+.debfief-footer {
+  border-top: 3px solid $primary;
+  background-color: #1a3157;
+  color: #bbbbbb;
+  padding-top: 3.4rem;
+  padding-bottom: 0.8rem;
+  position: relative;
+  &:before {
+    background-repeat: no-repeat;
+    border: 0 none;
+    content: "";
+    top: -87px;
+    padding: 10px;
+    position: absolute;
+    right: 50px;
+    width: 80px;
+    height: 96px;
+    background-image: url(../images/ship.svg);
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include media-breakpoint-down (sm) {
+      flex-direction: column;
+    }
+  }
+}
+
+.copyright-text {
+  color: $text-gray;
+  font-weight: 300;
+  @include media-breakpoint-down (sm)  {
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  a {
+    color: $text-gray;
+    @include hover-focus-active {
+      text-decoration: none;
+      color: #f7f7f7;
+    }
+  }
+}
+
+.nav-socials {
+  @include media-breakpoint-down (sm) {
+    padding-top: 10px;
+    padding-bottom: 10px; 
+  }
+  &__text {
+    margin-right: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  &__link {
+    color: $text-gray;
+    border: 1px solid rgba(255,255,255,.07);
+    border-radius: 50%;
+    line-height: 26px;
+    width: 28px;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 3px;
+    transition: all .9s ease 0s;
+    @include hover {
+      color: #f7f7f7;
+    }
+    &--twitter:hover {
+      background: #00acee;
+    }
+    &--facebook:hover {
+      background: #3B5998;
+    }
+    &--google-plus:hover {
+      background: #dd4c39;
+    }
+    &--linkedin:hover {
+      background: #007bb6;
+    }
+    &--youtube:hover {
+      background: #ff0000;
+    }
+    &--rss:hover {
+      background: #ffac3d;
+    }
+  }
+}

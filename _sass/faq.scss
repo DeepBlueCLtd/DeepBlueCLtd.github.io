@@ -1,0 +1,16 @@
+// FAQ page
+.accordion {
+  .accordion-card {
+    border: 1px solid #ddd !important;
+    border-radius: 3px !important;
+    &__header {
+      background-color: #f5f5f5;
+      border-color: #ddd;
+      padding: 6px 15px;
+    }
+  }
+  &--faq {
+    margin-top: 35px;
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,99 @@
+// About Us page
+.team-social {
+  border: 5px solid rgba(0, 0, 0, .1);
+  position: absolute;
+  background: rgba(255, 255, 255, .8);
+  opacity: 0;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 3px;
+  transition: all .4s ease 0s;
+  transform: scale(0.9);
+  &__link-wrap {
+    top: 60%;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+  }
+  &__link {
+    background: none repeat scroll 0 0 #404040;
+    border-radius: 2px;
+    color: $white;
+    display: inline-block;
+    height: 25px;
+    line-height: 27px;
+    text-align: center;
+    width: 25px;
+    box-shadow: 0 -2.2px rgba(0, 0, 0, 0.12) inset, 2px 0 rgba(0, 0, 0, 0.1) inset;
+    transition: all .5s ease 0s;
+    &--linkedin {
+      background-color: #007bb6;
+    }
+    &:hover {
+      color: $white;
+      background-color: #005983;
+    }
+  }
+}
+.team-member {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  &__img-wrap {
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    &:hover {
+      .team-social {
+        visibility: visible;
+        opacity: .9;
+        transform: scale(1);
+        font-size: 14px;
+      }
+    }
+  }
+  &__img {
+    width: 100%;
+  }
+  &__name {
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  &__job-title {
+    font-size: 13px;
+    color: $navbar-light-color;
+    font-weight: 300;
+  }
+}
+
+.b-last-post {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  &__date {
+    border-radius: 2px;
+    overflow: hidden;
+    background: #f9f9f9;
+    color: #666;
+    float: left;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 10px 0 0;
+    text-align: center;
+    width: 50px;
+    span {
+      background: #666;
+      color: #fff;
+      display: block;
+      font-size: 11px;
+      margin: 10px 0 0;
+      padding: 5px 0;
+      text-transform: uppercase;
+    }
+  }
+}
