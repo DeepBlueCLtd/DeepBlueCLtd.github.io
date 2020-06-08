@@ -19,7 +19,7 @@
   &__nav-link {
     color: $text-dark;
     @include media-breakpoint-down (md) {
-      padding: 10px 15px !important;
+      padding: 10px 8px !important;
     }
     @include hover-focus {
       color: $primary;
@@ -28,11 +28,13 @@
       color: $primary;
     }
   }
-
-  .show {
-    .header-navbar__nav-link {
+  &__button {
+    @include media-breakpoint-down (md) {
+      margin-top: 8px;
+      margin-bottom: 8px;
     }
   }
+
   .dropdown-toggle::after {
     margin-left: 0.4em;
     vertical-align: middle;
@@ -56,8 +58,7 @@
     }
   }
   .nav-item--search  {
-    .dropdown-toggle:visited {
-    }
+
     .dropdown-toggle::after {
       display: none;
     }

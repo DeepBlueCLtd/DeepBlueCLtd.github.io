@@ -1,5 +1,5 @@
 <div class="navbar-wrapper">
-  <nav class="header-navbar navbar fixed-top navbar-light navbar-expand-lg">
+  <nav class="header-navbar navbar fixed-top navbar-light navbar-expand-md">
     <div class="container">
       <a class="navbar-brand" href="/">
           <img src="{{ absolute_url }} /assets/images/dbc_logo_shallow.png" srcset="{{ absolute_url }} /assets/images/dbc_logo_shallow@2x.png 2x" alt="Debrief" class="img-fluid">
@@ -9,7 +9,7 @@
         </button>
     
         <div class="collapse navbar-collapse" id="headerNavbar">
-          <div class="navbar-nav header-navbar__nav ml-auto">
+          <div class="navbar-nav header-navbar__nav ml-auto align-items-center">
 
             {% for item in site.data.navigation.nav %}
               <div {% if item.dropdown == true %}class="nav-item dropdown"{% else %}class="nav-item"{% endif %}>
@@ -28,9 +28,13 @@
                     {% endfor %}
                   </div>
                 {% endif %}
+               
 
               </div>
             {% endfor %}
+            <a href="/contact-us" class="btn d-block btn-light-outline header-navbar__button" >
+              Contact us
+            </a>
 
             <div class="nav-item nav-item--search dropdown">
                 <a href="#" class="nav-link header-navbar__nav-link dropdown-toggle" id="headerNavlinkSearch" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
