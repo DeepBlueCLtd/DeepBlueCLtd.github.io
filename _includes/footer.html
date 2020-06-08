@@ -1,0 +1,50 @@
+<div class="fixed-bottom">
+  <footer class="debfief-footer">
+    <div class="container">
+      <div class="footer-navbar">
+        <div class="align-items-center d-flex flex-column flex-md-row justify-content-between">
+          <div class="footer-navbar__logo--md">
+            <img src="{{ absolute_url }} /assets/images/dbc_logo_shallow_black.png" srcset="{{ absolute_url }} /assets/images/dbc_logo_shallow_black@2x.png 2x" alt="Debrief" class="img-fluid">
+          </div>
+          <div class="footer-navbar__logo--sm">
+            <a href="https://www.facebook.com/DeepBlueCLtd/" target="_blank" title="facebook" class="nav-socials__link nav-socials__link--facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <img src="{{ absolute_url }} /assets/images/dbc_logo_compact_black.png" srcset="{{ absolute_url }} /assets/images/dbc_logo_compact_black@2x.png 2x" alt="Debrief" class="img-fluid mr-3 ml-3" width="29" height="29">
+            <a href="https://www.linkedin.com/company/deep-blue-c-technologies-ltd" target="_blank" title="linkedin" class="nav-socials__link nav-socials__link--linkedin">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+          <div class="footer-navbar__navlist  d-md-inline-flex align-items-center">
+            {% for item in site.data.navigation.nav %}
+                <a href="{{ item.link }}" id="{{ item.id }}" class="text-center nav-link footer-navbar__nav-link" >
+                  {{ item.name }}
+                </a>
+            {% endfor %}
+                <a href="/contact-us" class="btn btn-sm d-block btn-dark" >
+                  Contact us
+                </a>
+          </div>
+        </div>
+      </div>
+      <div class="dropdown-divider mt-3 mb-3"></div>
+      <div class="align-items-center d-flex justify-content-center justify-content-md-between">
+        <div class="copyright-text">
+          Copyright © 2020  
+          <a href="/">Deep Blue C Technology Ltd</a>
+          All rights reserved.
+        </div>
+        <div class="footer-social--md" >
+          <a href="https://www.facebook.com/DeepBlueCLtd/" target="_blank" title="facebook" class="nav-socials__link nav-socials__link--facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.linkedin.com/company/deep-blue-c-technologies-ltd" target="_blank" title="linkedin" class="nav-socials__link nav-socials__link--linkedin">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+  </footer>
+
+</div>

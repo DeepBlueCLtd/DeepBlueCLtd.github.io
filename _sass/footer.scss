@@ -1,35 +1,16 @@
 .debfief-footer {
-  border-top: 3px solid $primary;
-  background-color: #1a3157;
+  background-color: $light-gray;
   color: #bbbbbb;
-  padding-top: 3.4rem;
-  padding-bottom: 0.8rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   position: relative;
-  &:before {
-    background-repeat: no-repeat;
-    border: 0 none;
-    content: "";
-    top: -87px;
-    padding: 10px;
-    position: absolute;
-    right: 50px;
-    width: 80px;
-    height: 96px;
-    background-image: url(../images/ship.svg);
-  }
-  &__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    @include media-breakpoint-down (sm) {
-      flex-direction: column;
-    }
-  }
+
 }
 
 .copyright-text {
   color: $text-gray;
   font-weight: 300;
+  font-size: $font-size-sm;
   @include media-breakpoint-down (sm)  {
     padding-bottom: 15px;
     text-align: center;
@@ -43,6 +24,27 @@
   }
 }
 
+.footer-navbar__nav-link {
+  font-size: 0.8125rem;
+  padding: 8px 24px;
+  color: $black;
+}
+
+@include media-breakpoint-down (sm) {
+  .footer-social--md {
+    display: none;
+  }
+  .footer-navbar__logo--md {
+    display: none;
+  }
+}
+@include media-breakpoint-up (md) {
+  .footer-navbar__logo--sm {
+    display: none;
+  }
+}
+
+
 .nav-socials {
   @include media-breakpoint-down (sm) {
     padding-top: 10px;
@@ -54,8 +56,11 @@
     font-size: 12px;
   }
   &__link {
-    color: $text-gray;
-    border: 1px solid rgba(255,255,255,.07);
+    color: $dark-gray;
+    border: 1px solid $dark-gray;
+    @include media-breakpoint-up (md) {
+      border-color: $dropdown-divider-bg;
+    }
     border-radius: 50%;
     line-height: 26px;
     width: 28px;

@@ -23,7 +23,6 @@
     }
     @include hover-focus {
       color: $primary;
-      font-weight: 500;
     }
     &.active {
       color: $primary;

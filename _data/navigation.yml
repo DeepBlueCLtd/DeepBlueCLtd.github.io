@@ -19,6 +19,4 @@ nav:
         link: /debrief-support/#support-plans
       - name: Custom Support
         link: /debrief-support/#custom-support
-  - name: Contact us
-    link: /contact_us
-    id: NavlinkContact
+
