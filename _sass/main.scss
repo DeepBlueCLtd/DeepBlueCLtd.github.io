@@ -7,7 +7,7 @@ html {
   } 
 }
 body {
-  font-weight: 300;
+  font-weight: 400;
   min-height: 100vh;
 }
 main {
@@ -86,6 +86,47 @@ main {
     color: $secondary;
   }
 }
+.title-2 {
+  font-weight: 800;
+  color: $primary;
+  letter-spacing: -2px;
+  span {
+    color: $black;
+  }
+}
+.title-3 {
+  font-weight: 800;
+  color: $primary;
+  letter-spacing: -2px;
+  position: relative;
+  display: inline-block;
+  span {
+    color: $black;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: -18px;
+    right: 0;
+  }
+}
+.title-3-simple {
+  font-weight: 800;
+  color: $primary;
+  letter-spacing: -2px;
+}
+.title-4 {
+  font-weight: 700;
+  color: $primary;
+  letter-spacing: -1px;
+  span {
+    color: $black;
+  }
+}
+.title-6 {
+  font-weight: 700;
+  color: $black;
+  letter-spacing: -0.5px;
+}
+
 
 
 // Utilits

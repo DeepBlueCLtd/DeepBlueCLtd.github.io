@@ -1,0 +1,47 @@
+.hex-grid {
+    &__row--gap {
+        margin-top: -22%;
+        @include media-breakpoint-up (md) {
+            margin-top: -10%;
+        }
+    }
+    &__item {
+        width: 55%;
+        position: relative;
+        @include media-breakpoint-up (md) {
+            width: 24%;
+        }
+        &--gap {
+            margin-right: 14%;
+        }
+    }
+    &__content {
+        position: absolute;
+    }
+    &__title {
+        @include media-breakpoint-only (lg) {
+            font-size: 48px;
+        }
+        @include media-breakpoint-only (md) {
+            font-size: 40px;
+            top: 20%;
+        }
+    }
+}
+.clients-section {
+    &--md {
+        @include media-breakpoint-down (sm) {
+            display: none;
+        }
+    }
+    &--sm {
+        @include media-breakpoint-up (md) {
+            display: none;
+        }
+    }
+}
+
+
+
+
+

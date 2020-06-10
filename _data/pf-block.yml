@@ -1,0 +1,50 @@
+section:
+  - title: 'Debfief <span>app</span>'
+    img_first: false
+    image: ../assets/images/debrief-app.jpg
+    image_id: pf-section-img-1
+    image_x: '-70'
+    image_width: '487'
+    image_height: '325'
+    text:
+      - paragraph: '<span>Powerful, free, fast and intuitive.</span> The Debrief Maritime Analysis Tool accelerates maritime data analysis and reporting. Over twenty years of visionary development make us the first choice of effective analysts the world over.'
+      - paragraph: 'Deep Blue C is pleased to offer a range of Debrief support options, from an ongoing support contract that will ensure your analysts maintain their momentum, to bespoke development contracts that enhance Debrief capabilities and allow fresh analysis perspectives or integration with third party systems.'
+      - paragraph: '<a href="http://deepbluec.com/debrief-support/" class="prymary-link">Read More</a>'
+
+  - title: 'SubTrack90 <span>app</span>'
+    img_first: true
+    image: ../assets/images/Sub-Track-90.jpg
+    image_id: pf-section-img-2
+    image_x: '-150'
+    image_width: '600'
+    image_height: '600'
+    text:
+      - paragraph: 'Targeted at a specific set of skills, SubTrack90 has been designed from the ground-up to build passive sonar skills amongst junior sonar operators.'
+      - paragraph: 'This traditionally dry body of training has been gamified with an escalating set of challenges, each backed up by relevant contextual training. Leaderboards and reward challenges allow both peer competition and the ability for training staff to offer real rewards associated with focussed progress. The game is available for IOS, Android and modern web browsers (see below).'
+      - paragraph: 'SubTrack ‘90 is 70% complete, just requiring funding support for artistry of the gaming interface, leaderboard functionality, and some of the training content.'
+      - paragraph: 'View the current alpha at  <a href="http://subtrack90.com/" class="prymary-link">SubTrack90.com</a>'
+
+  - title: 'Fleet Narrative <span>tool</span>'
+    img_first: false
+    image: ../assets/images/feet-narrative-tool.jpg
+    image_id: pf-section-img-3
+    image_x: '-110'
+    image_width: '500'
+    image_height: '600'
+    text:
+      - paragraph: 'Having been entrusted with development of the Fleet Narrative Tool for the Royal Navy since the mid 90’s, the Deep Blue C team have recently upgraded the software to give Office 2000 compliance, together with a feature rationalisation that will allow the narrative-keeper to focus on essential events.'
+      - paragraph: 'Support for surface narrative-keeping is complete, and it is hoped that support for submarine operations will follow, supported by input from relevant SMEs. In the future Deep Blue C hopes to utilise increased connectivity to grow the exploitation of command narrative data, allowing sister platforms to register (subscribe) to particular event types. This zero-overhead sharing of status information will improve group situational awareness, using standard web technologies.'
+      - paragraph: 'As a technical demonstrator, in 2010 Deep Blue C developed a technical demonstrator for web-based narrative keeping. Have a look <a href="http://debrief.info/GWTDiary/GWTDiary.html" class="prymary-link">here</a>. Once the page has opened, try adding 100 narrative entries (<b>Generate 100</b>, from the Utilities menu). You can double-click narrative entries by double-clicking on them, or add new ones from the toolbar.'
+
+  - title: 'Fleet Lessons Management<span>system</span>'
+    img_first: true
+    image: ../assets/images/fleet-lessons-management-system.png
+    image_id: pf-section-img-4
+    image_x: '-70'
+    image_width: '487'
+    image_height: '325'
+    text:
+      - paragraph: 'In 2003 Deep Blue C developed the first web-based lessons management system in the UK for the Royal Navy, for a very important FLEET customer. DBC succeeded in reaching a hard deadline on a short timescale. To date the system has handled over 20,000 lessons, supporting over 1,000 registered users. The body of lessons has become fully embedded into FLEET business processes.'
+      - paragraph: 'Ships returning from deployment universally recognised FLMS as the most effective issue resolution strategy. Deep Blue C has provided ongoing maintenance, and Knowledge Management business process support to the rotating uniformed process owners and administrators. This also ensured accountability, audit, and acting as front-line champion remained at the forefront in a resource constrained environment.'
+      - paragraph: 'Ian Mayo also represented the Fleet Lessons organisation at a series of International Lessons Learned Conferences, including a start-of-day Keynote Speech at the 2008 International Lessons Learnt Conference hosted by the Singapore Armed Forces. In true cradle to grave support fashion Deep Blue C also ported all of the data to the defence-wide system adopted by the UK MoD in 2013.'
+
