@@ -1,14 +1,15 @@
 // Header pages
-.header-page {
-
-  background-position: 105% bottom;
+.header-block {
   background-repeat: no-repeat;
-  background-size: 63%;
-  background-image: url(../images/dbc_ship_sea.svg);
   position: relative;
   padding: 50px 20px;
   overflow: hidden;
-  box-shadow: 1px 0 1px rgba(50,50,50,0.15) inset;
+}
+
+.home-page {
+  background-position: 105% bottom;
+  background-size: 63%;
+  background-image: url(../images/dbc_ship_sea.svg);
   @include media-breakpoint-down (sm) {
     background-size: 52%;
     background-position: 129% 11%;
@@ -16,15 +17,26 @@
   @media (min-width: 1500px) {
     background-size: contain; 
   }
-  &__title {
-    background-color: rgba(0, 0, 33, 0.4);
-    padding: 10px 15px;
-    color: $white;
-    font-weight: 300;
-    margin: 20px auto 10px;
-    animation: fadeInDown 0.7s linear 1;
+}
+
+// Portfolio blocks
+.pf-section {
+  &__text {
+    span {
+      color: $primary;
+      font-weight: 700;
+    }
   }
 }
+
+
+
+
+
+
+
+
+
 
 
 
