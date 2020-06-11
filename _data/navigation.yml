@@ -4,10 +4,10 @@ nav:
     link: /
     id: NavlinkHome
   - name: About us
-    link: /#
+    link: /about-us
     id: NavlinkAbout
   - name: Debrief Support
-    link: /#
+    link: /debrief-support
     id: NavlinkSupport
     dropdown: true
     subnav:

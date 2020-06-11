@@ -3,8 +3,10 @@
         <div class="row">
           <div class="col-12 col-md-8 col-lg-7 col-xl-6">
             <h1 class="font-weight-normal mb-6 title-1 mt-7">{{ include.title }}</h2>
-              <p class="font-weight-light mt-2 lh-15 d-block mb-5 pr-5">{{ include.text }}</p>    
-              <a href="/about-us" class="btn btn-lg btn-primary mb-6">
+              <p class="font-weight-light mt-2 lh-15 d-block mb-5">{{ include.text }}
+                <a href="{{ include.link-url }}" class="primary-link">{{ include.link-text }} <span style="vertical-align: text-top;">{{ include.link-symbol }}</span>	</a>
+              </p>    
+              <a href="{{ include.btn-url }}" class="btn btn-lg btn-primary mb-6">
                 {{ include.btn }}
               </a>
           </div>
