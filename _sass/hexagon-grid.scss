@@ -1,3 +1,4 @@
+//Hexagon grid lg
 .hex-grid {
     &__row--gap {
         margin-top: -22%;
@@ -19,6 +20,60 @@
         position: absolute;
     }
     &__title {
+        @include media-breakpoint-only (lg) {
+            font-size: 48px;
+        }
+        @include media-breakpoint-only (md) {
+            font-size: 40px;
+            top: 20%;
+        }
+    }
+}
+.clients-section {
+    &--md {
+        @include media-breakpoint-down (sm) {
+            display: none;
+        }
+    }
+    &--sm {
+        @include media-breakpoint-up (md) {
+            display: none;
+        }
+    }
+}
+
+
+//Hexagon grid sm
+.hex-grid--sm {
+    .hex-grid__row--gap {
+        margin-top: -13%;
+        @include media-breakpoint-up (md) {
+            margin-top: -6.7%;
+        }
+    }
+    .hex-grid__item {
+        width: 31%;
+        position: relative;
+        @include media-breakpoint-up (md) {
+            width: 16%;
+        }
+        &--gap {
+            margin-right: 18%;
+            @include media-breakpoint-up (md) {
+                margin-right: 9%;
+            }
+        }
+    }
+    .hex-grid__item-right--gap {
+        margin-right: 17%;
+    }
+    .hex-grid__item-left--gap {
+        margin-left: 17%;
+    }
+    .hex-grid__content {
+        position: absolute;
+    }
+    .hex-grid__title {
         @include media-breakpoint-only (lg) {
             font-size: 48px;
         }
