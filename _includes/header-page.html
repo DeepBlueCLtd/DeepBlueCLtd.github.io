@@ -1,14 +1,18 @@
-<header class="header-block pt-5 mb-200 {{ include.class }}" role="banner">
+<header class="header-block pt-5 {{ include.class }}" role="banner">
     <div class="container ">
         <div class="row">
-          <div class="col-12 col-md-8 col-lg-7 col-xl-6">
+          <div class="col-12 col-md-9 col-lg-8 col-xl-7">
             <h1 class="font-weight-normal mb-6 title-1 mt-7">{{ include.title }}</h2>
-              <p class="font-weight-light mt-2 lh-15 d-block mb-5">{{ include.text }}
-                <a href="{{ include.link-url }}" class="primary-link">{{ include.link-text }} <span style="vertical-align: text-top;">{{ include.link-symbol }}</span>	</a>
-              </p>    
-              <a href="{{ include.btn-url }}" class="btn btn-lg btn-primary mb-6">
-                {{ include.btn }}
-              </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-10 col-lg-7 col-xl-6">
+            <p class="font-weight-light mt-2 lh-15 d-block mb-5 mt-0">{{ include.text }}
+              <a href="{{ include.link-url }}" class="primary-link">{{ include.link-text }} <span style="vertical-align: text-top;">{{ include.link-symbol }}</span>	</a>
+            </p>    
+            <a href="{{ include.btn-url }}" class="btn btn-lg btn-primary mb-6">
+              {{ include.btn }}
+            </a>
           </div>
         </div>
     </div>

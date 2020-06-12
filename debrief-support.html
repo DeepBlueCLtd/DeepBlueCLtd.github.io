@@ -3,10 +3,10 @@ layout: default
 title: Debrief Support - Deep Blue C
 ---
 
-{% include header-page.html title="Debrief <span>Support</span>" class="header-block__debrief" text="Deep Blue C Technology Ltd is a software company based in Portsmouth, UK. For 15 years we have made  easy to use analysis and training software for naval and maritime personnel, with deep support for power users. Our software has been used to great effect and is highly appreciated by our international user base. We champion Open Source development, and as a consequence all our software is free to use and well documented." btn="More about" btn-url="/#about-debrief"  %}
+{% include header-page.html title="Debrief <br><span>Support</span>" class="header-block__debrief" text="Deep Blue C Technology Ltd is a software company based in Portsmouth, UK. For 15 years we have made  easy to use analysis and training software for naval and maritime personnel, with deep support for power users. Our software has been used to great effect and is highly appreciated by our international user base. We champion Open Source development, and as a consequence all our software is free to use and well documented." btn="More about" btn-url="/#about-debrief"  %}
 
 
-<section>
+<section class="mb-200">
     <a name="what-is-debrief"></a>
     <div class="container">
         <div class="title-center text-center mx-auto mb-7">
@@ -200,6 +200,45 @@ title: Debrief Support - Deep Blue C
 </section>
 
 
+
+
+
+
+{% for section in site.data.need-support.block %} 
+<section class="mb-200 numbered-list">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-4 numbered-list__title mobile__title">
+                <h2 class="title-2">{{ section.title }}</h2>
+                <h4 class="title-4">{{ section.subtitle }}</h4>
+            </div>
+            <div class="col-12 col-lg-8">
+                <div class="row">
+                    {% for item in section.list %} 
+                    <div class="col-12 col-md-6 ">
+                        <div class="numbered-list__item d-flex flex-column mb-5">
+                            <div class="d-flex align-items-center mb-2">
+                                <div>
+                                    {{ item.img }}
+                                </div>
+                                <h4 class="ml-2">{{ item.title }}</h4>
+                            </div>
+                            <div class="d-flex numbered-list__text-wrap ">
+                                <p class="numbered-list__text">{{ item.text }}</p>
+                            </div>
+                        </div>
+                    </div>    
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endfor %}
+
+
+
+
 <section class="support-plan mb-200">
     <div class="container">
         <div class="title-center text-center mx-auto mb-7">
@@ -210,7 +249,7 @@ title: Debrief Support - Deep Blue C
             <div class="col-12 col-lg-6 col-xl-5 offset-xl-1 mb-6">
                 <div class="sp-card text-center">
                     <h3>SUPPORT BASIC</h3>
-                    <h2 class="title-2 mb-0">£1000</h2>
+                    <h2 class="title-2 mb-0">£ 1000</h2>
                     <p class="sp-card__month">Month</p>
                     <p class="sp-card__subtext"></p>
                     <hr>
@@ -239,8 +278,8 @@ title: Debrief Support - Deep Blue C
 
             <div class="col-12 col-lg-6 col-xl-5">
                 <div class="sp-card sp-card--plus text-center">
-                    <h3>SUPPORT BASIC</h3>
-                    <h2 class="title-2 mb-0">£1000</h2>
+                    <h3>SUPPORT PLUS</h3>
+                    <h2 class="title-2 mb-0">£ 2000</h2>
                     <p class="sp-card__month">Month</p>
                     <p class="sp-card__subtext">for first user +£1000/user/month (negotiable) for up to five more users</p>
                     <hr>
@@ -259,6 +298,161 @@ title: Debrief Support - Deep Blue C
         </div>
 
         <div class="mt-3 text-center">
+            <a href="/contact-us" class="btn btn-lg btn-primary mb-6">Contact for details</a>
+        </div>
+    </div>
+</section>
+
+<section class="custom-support mb-200">
+    <div class="container">
+        <div class="title-center text-center mx-auto mb-7">
+            <h2 class="title-2">Custom <span> Support</span></h2>
+            <h4>Because of its open source license, Debrief can be modified as needed to make it work harder for you. Deep Blue C can develop custom new Debrief capabilities that offer new opportunities, or leverage your analysts’ contextual knowledge.</h4>        
+        </div>
+        <h3 class="title-3 mb-32">Fixed Price</h3>
+        <div class="d-flex mb-3">
+            <div class="ml-2 ml-md-5 mr-3">
+                <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23.0544 4.09076L19.1766 0.212298C19.0404 0.0763513 18.8558 0 18.6633 0C18.4709 0 18.2863 0.0763513 18.1501 0.212298L7.84804 10.5143L5.11769 7.78427C4.98155 7.64817 4.79693 7.57172 4.60443 7.57172C4.41194 7.57172 4.22732 7.64817 4.09118 7.78427L0.212423 11.6627C0.0764022 11.7989 0 11.9835 0 12.176C0 12.3685 0.0764022 12.5531 0.212423 12.6892L7.31212 19.7874C7.37949 19.8548 7.45948 19.9083 7.54752 19.9448C7.63556 19.9812 7.72993 20 7.82522 20C7.83393 20 7.84174 19.9952 7.85014 19.9952C7.85735 19.9952 7.86516 19.9994 7.87266 19.9994C8.05911 19.9994 8.24375 19.9285 8.38577 19.7868L23.0544 5.11727C23.1219 5.0499 23.1754 4.96989 23.2119 4.88182C23.2484 4.79375 23.2672 4.69935 23.2672 4.60401C23.2672 4.50867 23.2484 4.41427 23.2119 4.3262C23.1754 4.23813 23.1219 4.15813 23.0544 4.09076Z" fill="#2E3690"/>
+                </svg>
+            </div>
+            <h4>Develop customised symbol libraries representing your platforms & vehicles</h4>
+        </div>
+        <div class="d-flex mb-3">
+            <div class="ml-2 ml-md-5 mr-3">
+                <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23.0544 4.09076L19.1766 0.212298C19.0404 0.0763513 18.8558 0 18.6633 0C18.4709 0 18.2863 0.0763513 18.1501 0.212298L7.84804 10.5143L5.11769 7.78427C4.98155 7.64817 4.79693 7.57172 4.60443 7.57172C4.41194 7.57172 4.22732 7.64817 4.09118 7.78427L0.212423 11.6627C0.0764022 11.7989 0 11.9835 0 12.176C0 12.3685 0.0764022 12.5531 0.212423 12.6892L7.31212 19.7874C7.37949 19.8548 7.45948 19.9083 7.54752 19.9448C7.63556 19.9812 7.72993 20 7.82522 20C7.83393 20 7.84174 19.9952 7.85014 19.9952C7.85735 19.9952 7.86516 19.9994 7.87266 19.9994C8.05911 19.9994 8.24375 19.9285 8.38577 19.7868L23.0544 5.11727C23.1219 5.0499 23.1754 4.96989 23.2119 4.88182C23.2484 4.79375 23.2672 4.69935 23.2672 4.60401C23.2672 4.50867 23.2484 4.41427 23.2119 4.3262C23.1754 4.23813 23.1219 4.15813 23.0544 4.09076Z" fill="#2E3690"/>
+                </svg>
+            </div>
+            <h4>Allow analysis tool capabilities to evolve in step with analysis requirements:</h4>
+        </div>
+        <div class="d-flex mb-2 ml-5 mr-lg-5">
+            <div class="ml-2 ml-md-5 mr-3">
+                <svg width="8" height="2" viewBox="0 0 8 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V2H8V0H0Z" fill="#2E3690"/>
+                </svg>
+            </div>
+            <p>Broaden support for using complex file types directly in Debrief, with all its power, instead of remaining limited to vendor-supplied basic replay </p>        
+        </div>
+        <div class="d-flex mb-2 ml-5 mr-lg-5">
+            <div class="ml-2 ml-md-5 mr-3">
+                <svg width="8" height="2" viewBox="0 0 8 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V2H8V0H0Z" fill="#2E3690"/>
+                </svg>
+            </div>
+            <p>Create new file import/export interfaces</p>>        
+        </div>
+        <div class="d-flex mb-3">
+            <div class="ml-2 ml-md-5 mr-3">
+                <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23.0544 4.09076L19.1766 0.212298C19.0404 0.0763513 18.8558 0 18.6633 0C18.4709 0 18.2863 0.0763513 18.1501 0.212298L7.84804 10.5143L5.11769 7.78427C4.98155 7.64817 4.79693 7.57172 4.60443 7.57172C4.41194 7.57172 4.22732 7.64817 4.09118 7.78427L0.212423 11.6627C0.0764022 11.7989 0 11.9835 0 12.176C0 12.3685 0.0764022 12.5531 0.212423 12.6892L7.31212 19.7874C7.37949 19.8548 7.45948 19.9083 7.54752 19.9448C7.63556 19.9812 7.72993 20 7.82522 20C7.83393 20 7.84174 19.9952 7.85014 19.9952C7.85735 19.9952 7.86516 19.9994 7.87266 19.9994C8.05911 19.9994 8.24375 19.9285 8.38577 19.7868L23.0544 5.11727C23.1219 5.0499 23.1754 4.96989 23.2119 4.88182C23.2484 4.79375 23.2672 4.69935 23.2672 4.60401C23.2672 4.50867 23.2484 4.41427 23.2119 4.3262C23.1754 4.23813 23.1219 4.15813 23.0544 4.09076Z" fill="#2E3690"/>
+                </svg>
+            </div>
+            <h4>Allow analysts to focus on delivering high-value, effective results</h4>
+        </div>
+        <div class="d-flex mb-3">
+            <div class="ml-2 ml-md-5 mr-3">
+                <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23.0544 4.09076L19.1766 0.212298C19.0404 0.0763513 18.8558 0 18.6633 0C18.4709 0 18.2863 0.0763513 18.1501 0.212298L7.84804 10.5143L5.11769 7.78427C4.98155 7.64817 4.79693 7.57172 4.60443 7.57172C4.41194 7.57172 4.22732 7.64817 4.09118 7.78427L0.212423 11.6627C0.0764022 11.7989 0 11.9835 0 12.176C0 12.3685 0.0764022 12.5531 0.212423 12.6892L7.31212 19.7874C7.37949 19.8548 7.45948 19.9083 7.54752 19.9448C7.63556 19.9812 7.72993 20 7.82522 20C7.83393 20 7.84174 19.9952 7.85014 19.9952C7.85735 19.9952 7.86516 19.9994 7.87266 19.9994C8.05911 19.9994 8.24375 19.9285 8.38577 19.7868L23.0544 5.11727C23.1219 5.0499 23.1754 4.96989 23.2119 4.88182C23.2484 4.79375 23.2672 4.69935 23.2672 4.60401C23.2672 4.50867 23.2484 4.41427 23.2119 4.3262C23.1754 4.23813 23.1219 4.15813 23.0544 4.09076Z" fill="#2E3690"/>
+                </svg>
+            </div>
+            <h4>Eliminate clerical file-transformation via bespoke file import development</h4>
+        </div>
+        <div class="d-flex mb-3">
+            <div class="ml-2 ml-md-5 mr-3">
+                <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23.0544 4.09076L19.1766 0.212298C19.0404 0.0763513 18.8558 0 18.6633 0C18.4709 0 18.2863 0.0763513 18.1501 0.212298L7.84804 10.5143L5.11769 7.78427C4.98155 7.64817 4.79693 7.57172 4.60443 7.57172C4.41194 7.57172 4.22732 7.64817 4.09118 7.78427L0.212423 11.6627C0.0764022 11.7989 0 11.9835 0 12.176C0 12.3685 0.0764022 12.5531 0.212423 12.6892L7.31212 19.7874C7.37949 19.8548 7.45948 19.9083 7.54752 19.9448C7.63556 19.9812 7.72993 20 7.82522 20C7.83393 20 7.84174 19.9952 7.85014 19.9952C7.85735 19.9952 7.86516 19.9994 7.87266 19.9994C8.05911 19.9994 8.24375 19.9285 8.38577 19.7868L23.0544 5.11727C23.1219 5.0499 23.1754 4.96989 23.2119 4.88182C23.2484 4.79375 23.2672 4.69935 23.2672 4.60401C23.2672 4.50867 23.2484 4.41427 23.2119 4.3262C23.1754 4.23813 23.1219 4.15813 23.0544 4.09076Z" fill="#2E3690"/>
+                </svg>
+            </div>
+            <h4>Internationalisation support, for easier adoption by non-English speakers:</h4>
+        </div>
+        <div class="d-flex mb-2 ml-5 mr-lg-5">
+            <div class="ml-2 ml-md-5 mr-3">
+                <svg width="8" height="2" viewBox="0 0 8 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V2H8V0H0Z" fill="#2E3690"/>
+                </svg>
+            </div>
+            <p>Provide Debrief application in another language</p>>        
+        </div>
+        <div class="d-flex mb-2 ml-5 mr-lg-5">
+            <div class="ml-2 ml-md-5 mr-3">
+                <svg width="8" height="2" viewBox="0 0 8 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V2H8V0H0Z" fill="#2E3690"/>
+                </svg>
+            </div>
+            <p>Provide Debrief tutorial & user manual in another language</p>>        
+        </div>
+        <div class="mt-4 text-center">
+            <a href="/contact-us" class="btn btn-lg btn-primary mb-6">Contact for details</a>
+        </div>
+    
+        <h3 class="title-3 mb-32">Bespoke</h3>
+        <div class="d-flex mb-3">
+            <div class="ml-2 ml-md-5 mr-3">
+                <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23.0544 4.09076L19.1766 0.212298C19.0404 0.0763513 18.8558 0 18.6633 0C18.4709 0 18.2863 0.0763513 18.1501 0.212298L7.84804 10.5143L5.11769 7.78427C4.98155 7.64817 4.79693 7.57172 4.60443 7.57172C4.41194 7.57172 4.22732 7.64817 4.09118 7.78427L0.212423 11.6627C0.0764022 11.7989 0 11.9835 0 12.176C0 12.3685 0.0764022 12.5531 0.212423 12.6892L7.31212 19.7874C7.37949 19.8548 7.45948 19.9083 7.54752 19.9448C7.63556 19.9812 7.72993 20 7.82522 20C7.83393 20 7.84174 19.9952 7.85014 19.9952C7.85735 19.9952 7.86516 19.9994 7.87266 19.9994C8.05911 19.9994 8.24375 19.9285 8.38577 19.7868L23.0544 5.11727C23.1219 5.0499 23.1754 4.96989 23.2119 4.88182C23.2484 4.79375 23.2672 4.69935 23.2672 4.60401C23.2672 4.50867 23.2484 4.41427 23.2119 4.3262C23.1754 4.23813 23.1219 4.15813 23.0544 4.09076Z" fill="#2E3690"/>
+                </svg>
+            </div>
+            <h4>Custom development projects to make more economic use of analyst effort, via:</h4>
+        </div>
+        <div class="d-flex mb-2 ml-5 mr-lg-5">
+            <div class="ml-2 ml-md-5 mr-3">
+                <svg width="8" height="2" viewBox="0 0 8 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V2H8V0H0Z" fill="#2E3690"/>
+                </svg>
+            </div>
+            <p>high level (graphical) editing of simulation input datasets</p>        
+        </div>
+        <div class="d-flex mb-2 ml-5 mr-lg-5">
+            <div class="ml-2 ml-md-5 mr-3">
+                <svg width="8" height="2" viewBox="0 0 8 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V2H8V0H0Z" fill="#2E3690"/>
+                </svg>
+            </div>
+            <p>integration with external modelling systems (including batch running)</p>        
+        </div>
+        <div class="d-flex mb-2 ml-5 mr-lg-5">
+            <div class="ml-2 ml-md-5 mr-3">
+                <svg width="8" height="2" viewBox="0 0 8 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V2H8V0H0Z" fill="#2E3690"/>
+                </svg>
+            </div>
+            <p>direct exploitation of simulation results (both single runs & meta-analysis)</p>        
+        </div>
+        <div class="d-flex mb-3">
+            <div class="ml-2 ml-md-5 mr-3">
+                <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23.0544 4.09076L19.1766 0.212298C19.0404 0.0763513 18.8558 0 18.6633 0C18.4709 0 18.2863 0.0763513 18.1501 0.212298L7.84804 10.5143L5.11769 7.78427C4.98155 7.64817 4.79693 7.57172 4.60443 7.57172C4.41194 7.57172 4.22732 7.64817 4.09118 7.78427L0.212423 11.6627C0.0764022 11.7989 0 11.9835 0 12.176C0 12.3685 0.0764022 12.5531 0.212423 12.6892L7.31212 19.7874C7.37949 19.8548 7.45948 19.9083 7.54752 19.9448C7.63556 19.9812 7.72993 20 7.82522 20C7.83393 20 7.84174 19.9952 7.85014 19.9952C7.85735 19.9952 7.86516 19.9994 7.87266 19.9994C8.05911 19.9994 8.24375 19.9285 8.38577 19.7868L23.0544 5.11727C23.1219 5.0499 23.1754 4.96989 23.2119 4.88182C23.2484 4.79375 23.2672 4.69935 23.2672 4.60401C23.2672 4.50867 23.2484 4.41427 23.2119 4.3262C23.1754 4.23813 23.1219 4.15813 23.0544 4.09076Z" fill="#2E3690"/>
+                </svg>
+            </div>
+            <h4>Improved outputs through new analysis domains:</h4>
+        </div>
+        <div class="d-flex mb-2 ml-5 mr-lg-5">
+            <div class="ml-2 ml-md-5 mr-3">
+                <svg width="8" height="2" viewBox="0 0 8 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V2H8V0H0Z" fill="#2E3690"/>
+                </svg>
+            </div>
+            <p>support for new data attributes (6 degs freedom, bespoke sensor measurement types)</p>        
+        </div>
+        <div class="d-flex mb-2 ml-5 mr-lg-5">
+            <div class="ml-2 ml-md-5 mr-3">
+                <svg width="8" height="2" viewBox="0 0 8 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V2H8V0H0Z" fill="#2E3690"/>
+                </svg>
+            </div>
+            <p>support for new analysis concepts, such as wake modeling and non-traditional sensors</p>        
+        </div>
+        <div class="d-flex mb-2 ml-5 mr-lg-5">
+            <div class="ml-2 ml-md-5 mr-3">
+                <svg width="8" height="2" viewBox="0 0 8 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V2H8V0H0Z" fill="#2E3690"/>
+                </svg>
+            </div>
+            <p>new Analysis Panes for direct access to specific graphical & tabular performance metrics</p>        
+        </div>
+    
+        <div class="mt-4 text-center">
             <a href="/contact-us" class="btn btn-lg btn-primary mb-6">Contact for details</a>
         </div>
     </div>

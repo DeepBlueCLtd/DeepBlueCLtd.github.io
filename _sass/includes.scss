@@ -2,7 +2,7 @@
 .header-block {
   background-repeat: no-repeat;
   position: relative;
-  padding: 50px 20px;
+  padding: 50px 20px 200px;
   overflow: hidden;
   p {
     @include media-breakpoint-up (md) {
@@ -38,6 +38,36 @@
     }
     @media (min-width: 1500px) {
       background-size: contain; 
+    }
+  }
+  &__debrief {
+    background-size: 354px 252px;
+    background-image: url(../images/dbc_ship_debrief_bg.svg);
+    background-position: top -6% right 600%;
+    @media (min-width: 380px) {
+      background-position: top -6% right -68%;  
+    }
+    @media (min-width: 480px) {
+      background-position: top -6% right -68%;  
+    }
+    @include media-breakpoint-up (md) {
+      background-size: 1418px 1010px;
+      background-position: bottom 0 left -210%;
+    }
+    @media (min-width: 1500px) {
+      background-size: 158%;
+      background-position: bottom 10% right 170%;
+    }
+    @media (min-width: 2000px) {
+      background-size: 110%;
+      background-position: bottom 10% right 530%;
+    }
+    h1 {
+      @include media-breakpoint-up (md) {
+         br {
+          display: none;
+        }
+      }
     }
   }
 }
