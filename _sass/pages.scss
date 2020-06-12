@@ -1,0 +1,175 @@
+//Home Page
+
+// Portfolio navigation
+.pf-nav {
+    &__item {
+     width:100%;
+     margin:0 auto;
+    }
+   }
+   
+
+//Get in touch section
+.get_in_touch-section {
+    background-image: url(../images/map.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    &__wrap {
+      background-image: url(../images/hexagone_solid__black.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      padding-top: 124px;
+      padding-bottom: 120px;
+      @include media-breakpoint-only (lg) {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      @media (min-width: 1500px) {
+        width: 83%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      @media (min-width: 1830px) {
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    .title-3-simple {
+      color: $white;
+      span {
+        color: $primary;
+        font-size: 2.25 rem;
+      }
+    }
+    p {
+      color: $white;
+      max-width: 85%;
+    }
+  }
+
+
+
+
+//Numbered list section
+.numbered-list {
+    &__title {
+      h4 {
+        color: $black;
+        margin-right: 15%;
+        margin-bottom: 40px;
+      }
+      @include media-breakpoint-down (md) {
+        h4 {
+          margin-right: 0;
+        }
+      }
+    } 
+    &__text-wrap {
+      border-left: 4px solid #2E3690;
+      margin-left: 24px;
+    }
+    &__text {
+      padding-left: 34px;
+    }
+  }
+  
+
+
+//Highlightin block
+.highlighting-block {
+    position: relative;
+    &__hex {
+        position: absolute;
+        left: -16%;
+        top: 0;
+        @include media-breakpoint-up (md) {
+        left: -4%;
+        }
+        @include media-breakpoint-up (lg) {
+        left: 10%;
+        top: 4%;
+        }
+    }
+    .title-3 {
+        font-weight: 500;
+    }
+    h4 {
+        font-weight: 400;
+        margin-left: 2rem;
+        @include media-breakpoint-up (md) {
+        margin-left: 3rem;
+        }
+        @include media-breakpoint-up (lg) {
+        margin-left: 4rem;
+        }
+    }
+}
+  
+
+// About debrief section
+
+.about-debrief {
+    &__icon {
+        @include media-breakpoint-down (sm) {
+        max-width: 60px;
+        }
+    }
+}
+
+.sp-card {
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 4rem 3.375rem;
+    @include media-breakpoint-down (md) {
+        max-width: 500px;
+        margin: auto;
+    }    
+    hr {
+        border-color: $primary;
+    }
+    h3 {
+        font-weight: 800;
+        margin-bottom: 2rem;
+    }
+    &__list-item {
+        line-height: 1.5;
+    }
+    &__month {
+        font-weight: 600;
+    }
+    &__subtext {
+        font-weight: 500;
+        height: 2.75rem;
+    }
+    &--plus {
+        background: linear-gradient(180deg, #2E3690 0%, rgba(76, 200, 237, 0.74) 99.99%);
+        color: $white;
+        h2 {
+            color: $info;
+        }
+        h3 {
+            color: $info;
+        }
+        hr {
+            border-color: $info;
+        }
+    }
+}
+
+.specialities-grid-sm {
+    @include media-breakpoint-up (md) {
+        display: none;
+    }
+}
+
+.specialities-grid-md {
+    @include media-breakpoint-down (sm) {
+        display: none;
+    }
+}

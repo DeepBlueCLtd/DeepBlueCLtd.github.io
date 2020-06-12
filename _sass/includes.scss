@@ -74,7 +74,6 @@
 
 
 
-
 // Portfolio blocks
 .pf-section {
   &__text {
@@ -84,29 +83,6 @@
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    transform: translateY(-80px);
-  }
-  100% {
-    opacity: 1;
-    transform: none;
-  }
-}
-
 
 
 
