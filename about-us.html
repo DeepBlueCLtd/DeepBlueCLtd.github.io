@@ -8,102 +8,38 @@ title: About us - Deep Blue C
 
 
 
-<section class="values-section mb-200">
+{% for section in site.data.values.block %} 
+<section class="mb-200 numbered-list">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-4 values-section__title mobile__title">
-                <h2 class="title-2"><span>Our</span> <br> Values</h2>
-                <h4 class="title-4">We champion Open Source development. As a result all our products:</h4>
+            <div class="col-12 col-lg-4 numbered-list__title mobile__title">
+                <h2 class="title-2">{{ section.title }}</h2>
+                <h4 class="title-4">{{ section.subtitle }}</h4>
             </div>
             <div class="col-12 col-lg-8">
                 <div class="row">
-                    <div class="col-12 col-md-6">
-                        <div class="values-section__item d-flex mb-4">
-                            <div>
-                                <svg width="53" height="300" viewBox="0 0 54 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M28.0643 2.95177C26.8339 2.22781 25.3109 2.21452 24.068 2.91689L5.11917 13.625C3.86521 14.3336 3.08906 15.6617 3.08711 17.102L3.05731 39.1769C3.05539 40.5973 3.80695 41.9123 5.03185 42.6316L24.2377 53.9095C25.4678 54.6318 26.9895 54.6444 28.2313 53.9425L47.2323 43.2033C48.4886 42.4933 49.2651 41.1616 49.2642 39.7186L49.2507 17.7023C49.2498 16.2858 48.4999 14.9755 47.2791 14.2572L28.0643 2.95177Z" fill="#2E3690"/>
-                                    <path d="M29.22 21V35H24.5V24.56H22.1V21H29.22Z" fill="white"/>
-                                    <line x1="26.5" y1="250" x2="26.5" y2="64" stroke="#2E3690" stroke-width="3"/>
-                                </svg>   
+                    {% for item in section.list %} 
+                    <div class="col-12 col-md-6 ">
+                        <div class="numbered-list__item d-flex flex-column mb-5">
+                            <div class="d-flex mb-2">
+                                <div>
+                                    {{ item.img }}
+                                </div>
+                                <h4 class="ml-2">{{ item.title }}</h4>
                             </div>
-                            <p class="mt-6">Are free to use, forever. You  can fund development of new capabilities that are of value to you, but you never have to pay for existing features or capabilities.</p>
-                        </div>
-                    </div>
-        
-                    <div class="col-12 col-md-6">
-                        <div class="values-section__item d-flex mb-4">
-                            <div>
-                                <svg width="53" height="300" viewBox="0 0 54 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M28.0638 2.95177C26.8334 2.22781 25.3104 2.21452 24.0675 2.91689L5.11868 13.625C3.86472 14.3336 3.08857 15.6617 3.08662 17.102L3.05682 39.1769C3.05491 40.5973 3.80646 41.9123 5.03136 42.6316L24.2372 53.9095C25.4673 54.6318 26.989 54.6444 28.2309 53.9425L47.2318 43.2033C48.4881 42.4933 49.2646 41.1616 49.2637 39.7186L49.2502 17.7023C49.2493 16.2858 48.4994 14.9755 47.2786 14.2572L28.0638 2.95177Z" fill="#2E3690"/>
-                                    <path d="M31.78 31.34V35H20.56V32.1L25.62 27.42C26.06 27.0067 26.3533 26.6533 26.5 26.36C26.6467 26.0667 26.72 25.78 26.72 25.5C26.72 25.1533 26.6 24.8867 26.36 24.7C26.1333 24.5 25.8 24.4 25.36 24.4C24.9333 24.4 24.5333 24.5133 24.16 24.74C23.7867 24.9667 23.5 25.2867 23.3 25.7L19.74 23.92C20.2733 22.92 21.0533 22.1333 22.08 21.56C23.1067 20.9733 24.3467 20.68 25.8 20.68C26.9067 20.68 27.8867 20.86 28.74 21.22C29.5933 21.58 30.26 22.0933 30.74 22.76C31.22 23.4267 31.46 24.1933 31.46 25.06C31.46 25.8333 31.2933 26.56 30.96 27.24C30.64 27.9067 30.0067 28.6667 29.06 29.52L27.06 31.34H31.78Z" fill="white"/>
-                                    <line x1="26.5" y1="64" x2="26.5" y2="250" stroke="#2E3690" stroke-width="3"/>
-                                </svg>
+                            <div class="d-flex numbered-list__text-wrap ">
+                                <p class="numbered-list__text">{{ item.text }}</p>
                             </div>
-                            <p class="mt-6">Are easy to use, focussing on helping the user get the job done. You concentrate on delivering business value, let the software handle the clerical tasks.</p>
                         </div>
-                    </div>
-        
-                    <div class="col-12 col-md-6">
-                        <div class="values-section__item d-flex mb-4">
-                            <div>
-                                <svg width="54" height="300" viewBox="0 0 54 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M28.4766 2.92054C27.2565 2.21442 25.7565 2.20048 24.5272 2.88383L5.18752 13.6341C3.92385 14.3365 3.14012 15.6675 3.13814 17.1144L3.10789 39.1535C3.10593 40.5865 3.87115 41.913 5.11382 42.6307L24.6943 53.9407C25.914 54.6452 27.4126 54.6584 28.6409 53.9755L48.0335 43.1942C49.2996 42.4903 50.0836 41.1557 50.0827 39.706L50.069 17.7256C50.0681 16.2967 49.3046 14.9748 48.066 14.258L28.4766 2.92054Z" fill="#2E3690"/>
-                                    <path d="M28.7725 26.54C29.8525 26.8067 30.6792 27.2933 31.2525 28C31.8392 28.6933 32.1325 29.5333 32.1325 30.52C32.1325 31.36 31.8992 32.1467 31.4325 32.88C30.9792 33.6 30.2725 34.1867 29.3125 34.64C28.3525 35.0933 27.1592 35.32 25.7325 35.32C24.7459 35.32 23.7592 35.2133 22.7725 35C21.7992 34.7867 20.9459 34.4733 20.2125 34.06L21.8125 30.58C22.3859 30.9133 22.9992 31.1667 23.6525 31.34C24.3192 31.5133 24.9592 31.6 25.5725 31.6C26.1192 31.6 26.5592 31.5067 26.8925 31.32C27.2259 31.1333 27.3925 30.8667 27.3925 30.52C27.3925 29.88 26.8392 29.56 25.7325 29.56H23.8725V26.66L25.9325 24.56H20.9325V21H31.3725V23.9L28.7725 26.54Z" fill="white"/>
-                                    <line x1="26.5" y1="64" x2="26.5" y2="250" stroke="#2E3690" stroke-width="3"/>
-                                </svg>
-                            </div>
-                            <p class="mt-6"> Suffer no vendor lock-in. Where feasible, all Deep Blue C source code is shared on the Internet, remaining free to use for any purpose, commercial or not. Any organisation can be invited to quote for maintenance based on the published source code.</p>
-                        </div>
-                    </div>
-        
-                    <div class="col-12 col-md-6">
-                        <div class="values-section__item d-flex mb-4">
-                            <div>
-                                <svg width="54" height="300" viewBox="0 0 54 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M28.477 2.92054C27.257 2.21442 25.757 2.20048 24.5277 2.88383L5.18801 13.6341C3.92434 14.3365 3.14061 15.6675 3.13863 17.1144L3.10838 39.1535C3.10642 40.5865 3.87164 41.913 5.11431 42.6308L24.6948 53.9407C25.9145 54.6452 27.4131 54.6584 28.6414 53.9755L48.034 43.1942C49.3001 42.4903 50.0841 41.1557 50.0832 39.706L50.0695 17.7256C50.0686 16.2967 49.3051 14.9748 48.0665 14.258L28.477 2.92054Z" fill="#2E3690"/>
-                                    <path d="M33.4198 32.6H31.5598V35H26.9798V32.6H19.7198V29.6L25.6598 21H30.4998L25.2198 28.94H27.1198V26.8H31.5598V28.94H33.4198V32.6Z" fill="white"/>
-                                    <line x1="26.5" y1="64" x2="26.5" y2="250" stroke="#2E3690" stroke-width="3"/>
-                                </svg>
-                            </div>
-                            <p class="mt-6">Are highly customizable, and can be tailored for individuals and organizations. Our modern, modular architectures and mature usability skills ensure you get exactly what you need, and don’t get swamped by new features.</p>
-            
-                        </div>
-                    </div>
-        
-                    <div class="col-12 col-md-6">
-                        <div class="values-section__item d-flex mb-4">
-                            <div>
-                                <svg width="54" height="300" viewBox="0 0 54 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M28.4615 2.92167C27.2411 2.21491 25.7403 2.20099 24.5105 2.88503L5.1852 13.6338C3.92188 14.3364 3.13843 15.6673 3.13644 17.1139L3.10622 39.1543C3.10425 40.5869 3.86897 41.9129 5.111 42.6308L24.6776 53.9395C25.8977 54.6447 27.3972 54.6579 28.626 53.9743L48.0042 43.1945C49.2699 42.4904 50.0536 41.1559 50.0527 39.7065L50.039 17.7247C50.0382 16.2963 49.2751 14.9748 48.0372 14.258L28.4615 2.92167Z" fill="#2E3690"/>
-                                    <path d="M25.6042 25.94C27.5642 25.94 29.0042 26.3533 29.9242 27.18C30.8575 27.9933 31.3242 29.0667 31.3242 30.4C31.3242 31.28 31.0909 32.0933 30.6242 32.84C30.1709 33.5733 29.4642 34.1733 28.5042 34.64C27.5442 35.0933 26.3509 35.32 24.9242 35.32C23.9375 35.32 22.9509 35.2133 21.9642 35C20.9909 34.7867 20.1375 34.4733 19.4042 34.06L21.0042 30.58C21.5909 30.9133 22.2042 31.1667 22.8442 31.34C23.4975 31.5133 24.1309 31.6 24.7442 31.6C25.2909 31.6 25.7309 31.5067 26.0642 31.32C26.4109 31.12 26.5842 30.8467 26.5842 30.5C26.5842 30.1667 26.4309 29.92 26.1242 29.76C25.8175 29.5867 25.2642 29.5 24.4642 29.5H20.4042L21.1042 21H30.4042V24.56H24.9842L24.8842 25.94H25.6042Z" fill="white"/>
-                                    <line x1="26.5" y1="64" x2="26.5" y2="250" stroke="#2E3690" stroke-width="3"/>
-                                </svg>
-                            </div>
-                            <p class="mt-6"> Have highly documented manuals and training processes. The software is being developed to empower you, and we make sure you can get the hang of it as fast as possible, and have the best possible support both in getting started and along your journey.</p>      
-            
-                        </div>
-                    </div>
-        
-                    <div class="col-12 col-md-6">
-                        <div class="values-section__item d-flex mb-4">
-                            <div>
-                                <svg width="54" height="300" viewBox="0 0 54 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M28.6021 2.9113C27.3851 2.21047 25.8921 2.19635 24.6668 2.87408L5.2085 13.6369C3.94195 14.3375 3.15596 15.6692 3.15396 17.1181L3.12358 39.1464C3.1216 40.5832 3.89095 41.9132 5.13896 42.6305L24.8331 53.9499C26.0497 54.6491 27.5414 54.6625 28.7656 53.9853L48.2771 43.1914C49.5461 42.4894 50.3324 41.154 50.3315 39.7023L50.3177 17.7326C50.3168 16.2999 49.5491 14.9746 48.3053 14.2583L28.6021 2.9113Z" fill="#2E3690"/>
-                                    <path d="M27.5921 25.94C28.4454 25.94 29.2388 26.1267 29.9721 26.5C30.7054 26.8733 31.2921 27.4 31.7321 28.08C32.1721 28.76 32.3921 29.54 32.3921 30.42C32.3921 31.3933 32.1388 32.2533 31.6321 33C31.1388 33.7467 30.4588 34.32 29.5921 34.72C28.7254 35.12 27.7654 35.32 26.7121 35.32C25.3654 35.32 24.1854 35.06 23.1721 34.54C22.1721 34.02 21.3921 33.2467 20.8321 32.22C20.2721 31.1933 19.9921 29.9333 19.9921 28.44C19.9921 26.84 20.3121 25.4533 20.9521 24.28C21.6054 23.1067 22.5121 22.2133 23.6721 21.6C24.8454 20.9867 26.2054 20.68 27.7521 20.68C28.5921 20.68 29.3921 20.78 30.1521 20.98C30.9121 21.1667 31.5588 21.4333 32.0921 21.78L30.3921 25.08C29.6988 24.5867 28.8521 24.34 27.8521 24.34C27.0388 24.34 26.3654 24.5467 25.8321 24.96C25.3121 25.36 24.9721 25.9467 24.8121 26.72C25.5454 26.2 26.4721 25.94 27.5921 25.94ZM26.3921 32.06C26.8188 32.06 27.1654 31.9333 27.4321 31.68C27.6988 31.4267 27.8321 31.08 27.8321 30.64C27.8321 30.2 27.6988 29.8533 27.4321 29.6C27.1654 29.3333 26.8188 29.2 26.3921 29.2C25.9654 29.2 25.6188 29.3333 25.3521 29.6C25.0854 29.8533 24.9521 30.2 24.9521 30.64C24.9521 31.08 25.0854 31.4267 25.3521 31.68C25.6188 31.9333 25.9654 32.06 26.3921 32.06Z" fill="white"/>
-                                    <line x1="26.5" y1="64" x2="26.5" y2="250" stroke="#2E3690" stroke-width="3"/>
-                                </svg>
-                            </div>
-                            <p class="mt-6">Follow a transparent development process. You take an active role in the development process, because at it’s heart the new software is part of an organizational change, and we want you, your organization and your collective contextual understanding & wisdom as involved with the process as possible.</p>
-            
-                        </div>
-                    </div>
+                    </div>    
+                    {% endfor %}
                 </div>
             </div>
-
         </div>
     </div>
-
 </section>
+{% endfor %}
+
 
 <section class="goals-section mb-200">
     <div class="container">

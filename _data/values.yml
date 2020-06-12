@@ -1,0 +1,46 @@
+block:
+  - title: '<span>Our</span> <br> Values'
+    subtitle: 'We champion Open Source development. As a result all our products:'
+    list:
+
+      - img: '<svg width="53" height="57" viewBox="0 0 53 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28.0642 2.95177C26.8338 2.22781 25.3107 2.21452 24.0679 2.91689L5.11905 13.625C3.86509 14.3336 3.08893 15.6617 3.08699 17.102L3.05719 39.1769C3.05527 40.5973 3.80683 41.9123 5.03173 42.6316L24.2376 53.9095C25.4677 54.6318 26.9894 54.6444 28.2312 53.9425L47.2322 43.2033C48.4885 42.4933 49.2649 41.1616 49.2641 39.7186L49.2506 17.7023C49.2497 16.2858 48.4998 14.9755 47.279 14.2572L28.0642 2.95177Z" fill="#2E3690"/>
+                <path d="M29.22 21V35H24.5V24.56H22.1V21H29.22Z" fill="white"/>
+              </svg>'
+        text: 'Are free to use, forever. You  can fund development of new capabilities that are of value to you, but you never have to pay for existing features or capabilities.'
+        title: ' '
+
+      - img: '<svg width="53" height="57" viewBox="0 0 53 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28.0642 2.95177C26.8338 2.22781 25.3107 2.21452 24.0679 2.91689L5.11905 13.625C3.86509 14.3336 3.08893 15.6617 3.08699 17.102L3.05719 39.1769C3.05527 40.5973 3.80683 41.9123 5.03173 42.6316L24.2376 53.9095C25.4677 54.6318 26.9894 54.6444 28.2312 53.9425L47.2322 43.2033C48.4885 42.4933 49.2649 41.1616 49.2641 39.7186L49.2506 17.7023C49.2497 16.2858 48.4998 14.9755 47.279 14.2572L28.0642 2.95177Z" fill="#2E3690"/>
+                <path d="M29.22 21V35H24.5V24.56H22.1V21H29.22Z" fill="white"/>
+              </svg>'
+        text: 'Are easy to use, focussing on helping the user get the job done. You concentrate on delivering business value, let the software handle the clerical tasks.'
+        title: ' '
+        
+      - img: '<svg width="53" height="57" viewBox="0 0 53 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28.0642 2.95177C26.8338 2.22781 25.3107 2.21452 24.0679 2.91689L5.11905 13.625C3.86509 14.3336 3.08893 15.6617 3.08699 17.102L3.05719 39.1769C3.05527 40.5973 3.80683 41.9123 5.03173 42.6316L24.2376 53.9095C25.4677 54.6318 26.9894 54.6444 28.2312 53.9425L47.2322 43.2033C48.4885 42.4933 49.2649 41.1616 49.2641 39.7186L49.2506 17.7023C49.2497 16.2858 48.4998 14.9755 47.279 14.2572L28.0642 2.95177Z" fill="#2E3690"/>
+                <path d="M29.22 21V35H24.5V24.56H22.1V21H29.22Z" fill="white"/>
+              </svg>'
+        text: 'Suffer no vendor lock-in. Where feasible, all Deep Blue C source code is shared on the Internet, remaining free to use for any purpose, commercial or not. Any organisation can be invited to quote for maintenance based on the published source code.'
+        title: ' '
+
+      - img: '<svg width="53" height="57" viewBox="0 0 53 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28.0642 2.95177C26.8338 2.22781 25.3107 2.21452 24.0679 2.91689L5.11905 13.625C3.86509 14.3336 3.08893 15.6617 3.08699 17.102L3.05719 39.1769C3.05527 40.5973 3.80683 41.9123 5.03173 42.6316L24.2376 53.9095C25.4677 54.6318 26.9894 54.6444 28.2312 53.9425L47.2322 43.2033C48.4885 42.4933 49.2649 41.1616 49.2641 39.7186L49.2506 17.7023C49.2497 16.2858 48.4998 14.9755 47.279 14.2572L28.0642 2.95177Z" fill="#2E3690"/>
+                <path d="M29.22 21V35H24.5V24.56H22.1V21H29.22Z" fill="white"/>
+              </svg>'
+        text: 'Have highly documented manuals and training processes. The software is being developed to empower you, and we make sure you can get the hang of it as fast as possible, and have the best possible support both in getting started and along your journey.'
+        title: ' '
+
+      - img: '<svg width="53" height="57" viewBox="0 0 53 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28.0642 2.95177C26.8338 2.22781 25.3107 2.21452 24.0679 2.91689L5.11905 13.625C3.86509 14.3336 3.08893 15.6617 3.08699 17.102L3.05719 39.1769C3.05527 40.5973 3.80683 41.9123 5.03173 42.6316L24.2376 53.9095C25.4677 54.6318 26.9894 54.6444 28.2312 53.9425L47.2322 43.2033C48.4885 42.4933 49.2649 41.1616 49.2641 39.7186L49.2506 17.7023C49.2497 16.2858 48.4998 14.9755 47.279 14.2572L28.0642 2.95177Z" fill="#2E3690"/>
+                <path d="M29.22 21V35H24.5V24.56H22.1V21H29.22Z" fill="white"/>
+              </svg>'
+        text: 'Are highly customizable, and can be tailored for individuals and organizations. Our modern, modular architectures and mature usability skills ensure you get exactly what you need, and don’t get swamped by new features.'
+        title: ' '
+
+      - img: '<svg width="53" height="57" viewBox="0 0 53 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28.0642 2.95177C26.8338 2.22781 25.3107 2.21452 24.0679 2.91689L5.11905 13.625C3.86509 14.3336 3.08893 15.6617 3.08699 17.102L3.05719 39.1769C3.05527 40.5973 3.80683 41.9123 5.03173 42.6316L24.2376 53.9095C25.4677 54.6318 26.9894 54.6444 28.2312 53.9425L47.2322 43.2033C48.4885 42.4933 49.2649 41.1616 49.2641 39.7186L49.2506 17.7023C49.2497 16.2858 48.4998 14.9755 47.279 14.2572L28.0642 2.95177Z" fill="#2E3690"/>
+                <path d="M29.22 21V35H24.5V24.56H22.1V21H29.22Z" fill="white"/>
+              </svg>'
+        text: 'Follow a transparent development process. You take an active role in the development process, because at it’s heart the new software is part of an organizational change, and we want you, your organization and your collective contextual understanding & wisdom as involved with the process as possible.'
+        title: ' '

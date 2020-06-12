@@ -1,0 +1,50 @@
+block:
+  - title: '<span>Who Needs</span> <br> Support?'
+    subtitle: 'We champion Open Source development. As a result all our products:'
+    list:
+
+      - img: '<svg width="53" height="57" viewBox="0 0 53 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28.0642 2.95177C26.8338 2.22781 25.3107 2.21452 24.0679 2.91689L5.11905 13.625C3.86509 14.3336 3.08893 15.6617 3.08699 17.102L3.05719 39.1769C3.05527 40.5973 3.80683 41.9123 5.03173 42.6316L24.2376 53.9095C25.4677 54.6318 26.9894 54.6444 28.2312 53.9425L47.2322 43.2033C48.4885 42.4933 49.2649 41.1616 49.2641 39.7186L49.2506 17.7023C49.2497 16.2858 48.4998 14.9755 47.279 14.2572L28.0642 2.95177Z" fill="#2E3690"/>
+                <path d="M29.22 21V35H24.5V24.56H22.1V21H29.22Z" fill="white"/>
+              </svg>'
+        text: 'Direct access to the software team, to discuss new features & working practices.'
+        title: 'Team working'
+
+      - img: '<svg width="53" height="57" viewBox="0 0 53 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28.0642 2.95177C26.8338 2.22781 25.3107 2.21452 24.0679 2.91689L5.11905 13.625C3.86509 14.3336 3.08893 15.6617 3.08699 17.102L3.05719 39.1769C3.05527 40.5973 3.80683 41.9123 5.03173 42.6316L24.2376 53.9095C25.4677 54.6318 26.9894 54.6444 28.2312 53.9425L47.2322 43.2033C48.4885 42.4933 49.2649 41.1616 49.2641 39.7186L49.2506 17.7023C49.2497 16.2858 48.4998 14.9755 47.279 14.2572L28.0642 2.95177Z" fill="#2E3690"/>
+                <path d="M29.22 21V35H24.5V24.56H22.1V21H29.22Z" fill="white"/>
+              </svg>'
+        text: 'Getting started support, including training & support for importing two in-house ASCII file types.'
+        title: 'Training & support'
+
+      - img: '<svg width="53" height="57" viewBox="0 0 53 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28.0642 2.95177C26.8338 2.22781 25.3107 2.21452 24.0679 2.91689L5.11905 13.625C3.86509 14.3336 3.08893 15.6617 3.08699 17.102L3.05719 39.1769C3.05527 40.5973 3.80683 41.9123 5.03173 42.6316L24.2376 53.9095C25.4677 54.6318 26.9894 54.6444 28.2312 53.9425L47.2322 43.2033C48.4885 42.4933 49.2649 41.1616 49.2641 39.7186L49.2506 17.7023C49.2497 16.2858 48.4998 14.9755 47.279 14.2572L28.0642 2.95177Z" fill="#2E3690"/>
+                <path d="M29.22 21V35H24.5V24.56H22.1V21H29.22Z" fill="white"/>
+              </svg>'
+        text: 'To ensure they focus on delivering output. A knowledge worker “in the zone” is capable of delivering amazing insight. The lack of a support contract can mean that an analyst has to defer exploring a hypothesis – with the result that it may never be investigated.'
+        title: 'Responsive user support to analysts'
+
+
+
+
+
+      - img: '<svg width="53" height="57" viewBox="0 0 53 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28.0642 2.95177C26.8338 2.22781 25.3107 2.21452 24.0679 2.91689L5.11905 13.625C3.86509 14.3336 3.08893 15.6617 3.08699 17.102L3.05719 39.1769C3.05527 40.5973 3.80683 41.9123 5.03173 42.6316L24.2376 53.9095C25.4677 54.6318 26.9894 54.6444 28.2312 53.9425L47.2322 43.2033C48.4885 42.4933 49.2649 41.1616 49.2641 39.7186L49.2506 17.7023C49.2497 16.2858 48.4998 14.9755 47.279 14.2572L28.0642 2.95177Z" fill="#2E3690"/>
+                <path d="M29.22 21V35H24.5V24.56H22.1V21H29.22Z" fill="white"/>
+              </svg>'
+        text: 'Including new features, delivered in enterprise-friendly form (.MSI installer). This reduces the workload on both analysts and the IT support infrastructure.'
+        title: 'Immediate access to Debrief updates'
+
+      - img: '<svg width="53" height="57" viewBox="0 0 53 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28.0642 2.95177C26.8338 2.22781 25.3107 2.21452 24.0679 2.91689L5.11905 13.625C3.86509 14.3336 3.08893 15.6617 3.08699 17.102L3.05719 39.1769C3.05527 40.5973 3.80683 41.9123 5.03173 42.6316L24.2376 53.9095C25.4677 54.6318 26.9894 54.6444 28.2312 53.9425L47.2322 43.2033C48.4885 42.4933 49.2649 41.1616 49.2641 39.7186L49.2506 17.7023C49.2497 16.2858 48.4998 14.9755 47.279 14.2572L28.0642 2.95177Z" fill="#2E3690"/>
+                <path d="M29.22 21V35H24.5V24.56H22.1V21H29.22Z" fill="white"/>
+              </svg>'
+        text: 'Up to an agreed number days per month, typically delivered within two working days. It can take many days for an analyst to fully engage with the context of a trial/operation, to get into the mindset of the participants. Once broken this concentration can take many days to re-engage.'
+        title: 'Fast bug fix request processing'   
+
+      - img: '<svg width="53" height="57" viewBox="0 0 53 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28.0642 2.95177C26.8338 2.22781 25.3107 2.21452 24.0679 2.91689L5.11905 13.625C3.86509 14.3336 3.08893 15.6617 3.08699 17.102L3.05719 39.1769C3.05527 40.5973 3.80683 41.9123 5.03173 42.6316L24.2376 53.9095C25.4677 54.6318 26.9894 54.6444 28.2312 53.9425L47.2322 43.2033C48.4885 42.4933 49.2649 41.1616 49.2641 39.7186L49.2506 17.7023C49.2497 16.2858 48.4998 14.9755 47.279 14.2572L28.0642 2.95177Z" fill="#2E3690"/>
+                <path d="M29.22 21V35H24.5V24.56H22.1V21H29.22Z" fill="white"/>
+              </svg>'
+        text: 'A quick turnaround feature request can let them “stay in the zone”.'
+        title: 'Stay in the zone'

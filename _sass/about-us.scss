@@ -1,6 +1,6 @@
 //Values section
 
-.values-section {
+.numbered-list {
   &__title {
     h4 {
       color: $black;
@@ -13,7 +13,20 @@
       }
     }
   } 
+  &__text-wrap {
+    border-left: 4px solid #2E3690;
+    margin-left: 24px;
+  }
+  &__text {
+    padding-left: 34px;
+  }
 }
+
+
+
+
+
+
 
 
 .highlighting-block {
