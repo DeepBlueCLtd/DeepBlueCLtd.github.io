@@ -29,18 +29,7 @@
         }
     }
 }
-.clients-section {
-    &--md {
-        @include media-breakpoint-down (sm) {
-            display: none;
-        }
-    }
-    &--sm {
-        @include media-breakpoint-up (md) {
-            display: none;
-        }
-    }
-}
+
 
 
 //Hexagon grid sm
@@ -53,7 +42,6 @@
     }
     .hex-grid__item {
         width: 31%;
-        position: relative;
         @include media-breakpoint-up (md) {
             width: 16%;
         }
@@ -73,30 +61,206 @@
     .hex-grid__content {
         position: absolute;
     }
-    .hex-grid__title {
-        @include media-breakpoint-only (lg) {
-            font-size: 48px;
-        }
-        @include media-breakpoint-only (md) {
-            font-size: 40px;
-            top: 20%;
+}
+
+
+// Hexagone grid history
+
+.hex-grid-history {
+    position: relative;
+    &__row--gap {
+        margin-top: -22%;
+        @include media-breakpoint-up (md) {
+            margin-top: -10%;
         }
     }
-}
-.clients-section {
-    &--md {
+    &__item {
+       /* width: 295px;s
+        height: 260px;*/
+        width: 197px;
+        height: 224px;
+        position: relative;
+        @include media-breakpoint-up (sm) {
+            height: 247px;
+        }
+        @include media-breakpoint-up (md) {
+            height: 300px;
+        }
+        &--z {
+            @include media-breakpoint-down (sm) {
+                z-index: 1000;
+            }
+            
+        }
+    }
+    &__content {
+        max-width: 85%;
+        @include media-breakpoint-up (md) {
+            max-width: 90%;
+        }
+        
+    }
+    &__item-bg-md {
+        position: absolute;
+        @include media-breakpoint-up (md) {
+            width: 400px;
+            height: 345px;
+        }
         @include media-breakpoint-down (sm) {
             display: none;
         }
     }
-    &--sm {
-        @include media-breakpoint-up (md) {
+    &__item-bg-sm {
+        position: absolute;
+        width: 282px;
+        height: 268px;
+        @include media-breakpoint-up (sm) {
+            width: 330px;
+            height: 284px;
+        }
+        @include media-breakpoint-up (md)  {
             display: none;
         }
     }
+    &__title {
+        font-weight: 700;
+        color: $primary;
+        text-transform: uppercase;
+    }
+    &__year {
+        font-size: 28px;
+        font-weight: 300;
+        line-height: 1.2; 
+        @include media-breakpoint-up (md)  {
+            font-size: 2.875rem;
+        }
+    }
+    &__text {
+        font-size: 12px;
+        line-height: 1.2;
+        @include media-breakpoint-up (md)  {
+            font-size: 0.75rem;
+        }
+    }
+    &__gap-0 {
+        @include media-breakpoint-down (sm) {
+            margin-right: 45px;
+        }
+    }
+    &__gap-1 {
+        margin-left: 34px;
+        @include media-breakpoint-up (sm) {
+            margin-left: 42px;
+        }
+        @include media-breakpoint-up (md) {
+            margin-left: 338px;
+        }
+    }
+    &__gap-2 {
+        margin-top: 1px;
+        margin-right: 21px;
+        
+        @include media-breakpoint-up (sm) {
+            margin-top: 2px;
+            margin-right: 22px;
+        }
+        @include media-breakpoint-up (md) {
+            margin-top: -149px;
+            margin-right: 197px;
+        }
+    }
+    &__gap-3 {
+        margin-left: 38px;
+        @include media-breakpoint-up (sm) {
+            margin-left: 42px;
+            margin-top: 2px;
+        }
+        @include media-breakpoint-up (md) {
+            margin-top: 2px;
+            margin-left: 145px;
+        }
+    }
+    &__gap-4 {
+        margin-right: 21px;
+        margin-top: 3px;
+        @include media-breakpoint-up (sm) {
+            margin-top: 2px;
+            margin-right: 22px;
+        }
+        @include media-breakpoint-up (md) {
+            margin-right: 208px;
+        }
+        
+    }
+    &__gap-5 {
+        margin-left: 38px;       
+        @include media-breakpoint-up (sm) {
+            margin-left: 42px; 
+        }
+        @include media-breakpoint-up (md) {
+            margin-left: 311px;
+            margin-top: -149px;
+        }
+        
+    }
+    &__gap-6 {
+        margin-top: 1px;
+        margin-right: 21px;
+        @include media-breakpoint-up (sm) {
+            margin-top: 2px;
+            margin-right: 22px;
+        }
+        @include media-breakpoint-up (md) {
+            margin-right: 222px;
+            margin-top: -149px;
+        }
+       
+    }
+    &__gap-7 {
+        margin-left: 38px;
+        @include media-breakpoint-up (sm) {
+            margin-left: 42px;
+        }
+        @include media-breakpoint-up (md) {
+            margin-left: 120px;
+            margin-top: 0;
+        }
+        
+    }
+    &__gap-8 {
+        margin-top: 1px;
+        margin-right: 21px;
+        @include media-breakpoint-up (sm) {
+            margin-top: 2px;
+            margin-right: 22px;
+        }
+        @include media-breakpoint-up (md) {
+            margin-right: 239px;
+            margin-top: -1px;
+        }
+        
+    }
+    &__gap-9 {
+        margin-left: 38px;       
+        @include media-breakpoint-up (sm) {
+            margin-left: 42px; 
+        }
+        @include media-breakpoint-up (md) {
+            margin-left: 283px;
+            margin-top: -148px;
+        }
+    
+    }
+    &__gap-10 {
+        margin-top: 1px;
+        margin-right: 21px;
+        @include media-breakpoint-up (sm) {
+            margin-top: 2px;
+            margin-right: 22px;
+        }
+        @include media-breakpoint-up (md) {
+            margin-right: 77px;
+        }
+    }
+    
 }
-
-
-
-
-
