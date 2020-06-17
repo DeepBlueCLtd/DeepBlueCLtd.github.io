@@ -95,6 +95,7 @@
     }
     &__content {
         max-width: 85%;
+        z-index: 10;
         @include media-breakpoint-up (md) {
             max-width: 90%;
         }

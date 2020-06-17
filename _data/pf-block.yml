@@ -1,5 +1,6 @@
 section:
   - title: 'Debfief <span>app</span>'
+    id-nav: 'debrief'
     img_first: false
     image: ../assets/images/debrief-app.jpg
     image_id: pf-section-img-1
@@ -7,11 +8,12 @@ section:
     image_width: '487'
     image_height: '325'
     text:
-      - paragraph: '<span>Powerful, free, fast and intuitive.</span> The Debrief Maritime Analysis Tool accelerates maritime data analysis and reporting. Over twenty years of visionary development make us the first choice of effective analysts the world over.'
+      - paragraph: '<b>Powerful, free, fast and intuitive.</b> The Debrief Maritime Analysis Tool accelerates maritime data analysis and reporting. Over twenty years of visionary development make us the first choice of effective analysts the world over.'
       - paragraph: 'Deep Blue C is pleased to offer a range of Debrief support options, from an ongoing support contract that will ensure your analysts maintain their momentum, to bespoke development contracts that enhance Debrief capabilities and allow fresh analysis perspectives or integration with third party systems.'
-      - paragraph: '<a href="http://deepbluec.com/debrief-support/" class="prymary-link">Read More</a>'
+      - paragraph: '<a href="http://deepbluec.com/debrief-support/" class="primary-link">Read More</a>'
 
   - title: 'SubTrack90 <span>app</span>'
+    id-nav: 'subtrack90'
     img_first: true
     image: ../assets/images/Sub-Track-90.jpg
     image_id: pf-section-img-2
@@ -22,9 +24,10 @@ section:
       - paragraph: 'Targeted at a specific set of skills, SubTrack90 has been designed from the ground-up to build passive sonar skills amongst junior sonar operators.'
       - paragraph: 'This traditionally dry body of training has been gamified with an escalating set of challenges, each backed up by relevant contextual training. Leaderboards and reward challenges allow both peer competition and the ability for training staff to offer real rewards associated with focussed progress. The game is available for IOS, Android and modern web browsers (see below).'
       - paragraph: 'SubTrack ‘90 is 70% complete, just requiring funding support for artistry of the gaming interface, leaderboard functionality, and some of the training content.'
-      - paragraph: 'View the current alpha at  <a href="http://subtrack90.com/" class="prymary-link">SubTrack90.com</a>'
+      - paragraph: 'View the current alpha at  <a href="http://subtrack90.com/" class="primary-link">SubTrack90.com</a>'
 
   - title: 'Fleet Narrative <span>tool</span>'
+    id-nav: 'flnt'
     img_first: false
     image: ../assets/images/feet-narrative-tool.jpg
     image_id: pf-section-img-3
@@ -34,9 +37,10 @@ section:
     text:
       - paragraph: 'Having been entrusted with development of the Fleet Narrative Tool for the Royal Navy since the mid 90’s, the Deep Blue C team have recently upgraded the software to give Office 2000 compliance, together with a feature rationalisation that will allow the narrative-keeper to focus on essential events.'
       - paragraph: 'Support for surface narrative-keeping is complete, and it is hoped that support for submarine operations will follow, supported by input from relevant SMEs. In the future Deep Blue C hopes to utilise increased connectivity to grow the exploitation of command narrative data, allowing sister platforms to register (subscribe) to particular event types. This zero-overhead sharing of status information will improve group situational awareness, using standard web technologies.'
-      - paragraph: 'As a technical demonstrator, in 2010 Deep Blue C developed a technical demonstrator for web-based narrative keeping. Have a look <a href="http://debrief.info/GWTDiary/GWTDiary.html" class="prymary-link">here</a>. Once the page has opened, try adding 100 narrative entries (<b>Generate 100</b>, from the Utilities menu). You can double-click narrative entries by double-clicking on them, or add new ones from the toolbar.'
+      - paragraph: 'As a technical demonstrator, in 2010 Deep Blue C developed a technical demonstrator for web-based narrative keeping. Have a look <a href="http://debrief.info/GWTDiary/GWTDiary.html" class="primary-link">here</a>. Once the page has opened, try adding 100 narrative entries (<b>Generate 100</b>, from the Utilities menu). You can double-click narrative entries by double-clicking on them, or add new ones from the toolbar.'
 
   - title: 'Fleet Lessons Management<span>system</span>'
+    id-nav: 'flms'
     img_first: true
     image: ../assets/images/fleet-lessons-management-system.png
     image_id: pf-section-img-4
