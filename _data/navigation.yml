@@ -9,14 +9,5 @@ nav:
   - name: Debrief Support
     link: /debrief-support
     id: NavlinkSupport
-    dropdown: true
-    subnav:
-      - name: What is Debrief?
-        link: /debrief-support/#what-is-debrief
-      - name: Who Needs Support?
-        link: /debrief-support/#who-needs-support
-      - name: Support Plans
-        link: /debrief-support/#support-plans
-      - name: Custom Support
-        link: /debrief-support/#custom-support
+
 

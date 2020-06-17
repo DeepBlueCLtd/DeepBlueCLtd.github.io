@@ -12,26 +12,14 @@
           <div class="navbar-nav header-navbar__nav ml-auto align-items-center">
 
             {% for item in site.data.navigation.nav %}
-              <div {% if item.dropdown == true %}class="nav-item dropdown"{% else %}class="nav-item"{% endif %}>
+              <div class="nav-item">
                 <a href="{{ item.link }}" id="{{ item.id }}"
-                  {% if page.url == item.link %}style="color: #2E3690; font-weight: 500 ;"{% endif %} 
-                  {% if item.dropdown == true %}
-                    class="nav-link header-navbar__nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                    {% else %}class="nav-link header-navbar__nav-link"
-                  {% endif %} >
+                {% if page.url == item.link %}style="color: #2E3690; font-weight: 500 ;" {% endif %} class="nav-link header-navbar__nav-link" >
                   {{ item.name }}
                 </a>
-                {% if item.subnav[0] %}
-                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="{{ item.id }}">
-                    {% for entry in item.subnav %}
-                      <a class="dropdown-item header-navbar__dropdown-item" href="{{ entry.link }}">{{ entry.name }}</a>
-                    {% endfor %}
-                  </div>
-                {% endif %}
-               
-
               </div>
             {% endfor %}
+
             <a href="mailto:support@DeepBlueC.com" class="btn d-block btn-light-outline header-navbar__button" >
               Contact us
             </a>
