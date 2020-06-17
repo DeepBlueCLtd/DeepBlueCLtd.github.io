@@ -94,8 +94,27 @@ main {
 }
 .mb-200 {
   margin-bottom: 12.5rem;
+  @include media-breakpoint-down (md) {
+    margin-bottom: 9.375rem;
+  }
 }
-
+.mt-200 {
+  margin-top: 12.5rem;
+  @include media-breakpoint-down (md) {
+    margin-top: 9.375rem;
+  }
+}
+.mb-100 {
+  margin-bottom: 6.25rem;
+}
+.mt-100 {
+  margin-top: 6.25rem;
+}
+.mt-md-200  {
+  @include media-breakpoint-up (md) {
+    margin-top: 12.5rem;
+  }
+}
 
 
 //Typography
@@ -160,7 +179,13 @@ main {
   letter-spacing: -0.5px;
 }
 .primary-link {
-  font-weight: 500;
+  font-weight: 600;
+  color: $primary;
+  &:hover,
+  &:active,
+  &:focus  {
+    color: $secondary;
+  }
 }
 .title-center {
   max-width: 800px;

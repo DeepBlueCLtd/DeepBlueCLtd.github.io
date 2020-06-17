@@ -2,7 +2,7 @@
 .header-block {
   background-repeat: no-repeat;
   position: relative;
-  padding: 50px 20px 200px;
+  padding: 50px 20px 100px;
   overflow: hidden;
   p {
     @include media-breakpoint-up (md) {
@@ -21,7 +21,12 @@
       background-position: 105% bottom;
     }
     @media (min-width: 1500px) {
-      background-size: contain; 
+      background-size: 75%;
+      background-position: 170% bottom;
+    }
+    @media (min-width: 2000px) {
+      background-size: contain;
+      background-position: 75% bottom;
     }
   }
   &__about {
@@ -36,31 +41,32 @@
       background-size: 63%;
       background-position: 102% bottom;
     }
+    
     @media (min-width: 1500px) {
-      background-size: contain; 
+      background-size: contain;
+      background-position: left 70% bottom;
     }
+
+    
   }
   &__debrief {
-    background-size: 354px 252px;
+    background-size: 70%;
     background-image: url(../images/dbc_ship_debrief_bg.svg);
-    background-position: top -6% right 600%;
-    @media (min-width: 380px) {
-      background-position: top -6% right -68%;  
-    }
+    background-position: 175% 0%;
     @media (min-width: 480px) {
-      background-position: top -6% right -68%;  
+      background-position: 140% top;
     }
     @include media-breakpoint-up (md) {
-      background-size: 1418px 1010px;
-      background-position: bottom 0 left -210%;
+      background-size: 63%;
+      background-position: 105% bottom;
     }
     @media (min-width: 1500px) {
-      background-size: 158%;
-      background-position: bottom 10% right 170%;
+      background-size: 80%;
+      background-position: 235% bottom;
     }
     @media (min-width: 2000px) {
-      background-size: 110%;
-      background-position: bottom 10% right 530%;
+      background-size: contain;
+      background-position: left 80% bottom;
     }
     h1 {
       @include media-breakpoint-up (md) {
@@ -71,19 +77,6 @@
     }
   }
 }
-
-
-
-// Portfolio blocks
-.pf-section {
-  &__text {
-    span {
-      color: $primary;
-      font-weight: 700;
-    }
-  }
-}
-
 
 
 // Form search 
@@ -102,4 +95,3 @@
     }
   }
 }
-

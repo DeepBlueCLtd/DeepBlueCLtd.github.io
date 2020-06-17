@@ -10,7 +10,7 @@ section:
     text:
       - paragraph: '<b>Powerful, free, fast and intuitive.</b> The Debrief Maritime Analysis Tool accelerates maritime data analysis and reporting. Over twenty years of visionary development make us the first choice of effective analysts the world over.'
       - paragraph: 'Deep Blue C is pleased to offer a range of Debrief support options, from an ongoing support contract that will ensure your analysts maintain their momentum, to bespoke development contracts that enhance Debrief capabilities and allow fresh analysis perspectives or integration with third party systems.'
-      - paragraph: '<a href="http://deepbluec.com/debrief-support/" class="primary-link">Read More</a>'
+      - paragraph: '<a href="/debrief-support" class="primary-link">Read More</a>'
 
   - title: 'SubTrack90 <span>app</span>'
     id-nav: 'subtrack90'
