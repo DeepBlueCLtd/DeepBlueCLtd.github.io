@@ -5,6 +5,7 @@ section:
     image: ../assets/images/debrief-app.jpg
     image_id: pf-section-img-1
     image_x: '-70'
+    image_y: '0'
     image_width: '487'
     image_height: '325'
     text:
@@ -15,9 +16,10 @@ section:
   - title: 'SubTrack90 <span>app</span>'
     id-nav: 'subtrack90'
     img_first: true
-    image: ../assets/images/Sub-Track-90.jpg
+    image: ../assets/images/SubTrack90.png
     image_id: pf-section-img-2
-    image_x: '-150'
+    image_x: '-300'
+    image_y: '-100'
     image_width: '600'
     image_height: '600'
     text:
@@ -26,12 +28,48 @@ section:
       - paragraph: 'SubTrack ‘90 is 70% complete, just requiring funding support for artistry of the gaming interface, leaderboard functionality, and some of the training content.'
       - paragraph: 'View the current alpha at  <a href="http://subtrack90.com/" class="primary-link">SubTrack90.com</a>'
 
+  - title: 'Serge<span>wargame</span>'
+    id-nav: 'serge'
+    img_first: false
+    image: ../assets/images/Serge.png
+    image_id: pf-section-img-5
+    image_x: '-160'
+    image_y: '10'
+    image_width: '500'
+    image_height: '250'
+    text:
+      - paragraph: '<b>Serge - Serious Gaming, Evolved</b>'
+      - paragraph: 'Serge is a web-based wargaming environment, used for the analysis and development of distributed tactical command and control scenarios.'
+      - paragraph: 'Serge allows a Game Designer has designed a wargame comprising:'
+      - paragraph: 'A number of forces, each comprising a number of roles, and optionally including platforms/assets belonging to that force'
+      - paragraph: 'A set of channels (chat-rooms), with specific role participants, with either plain chat messages, or formatted message structures'
+      - paragraph: 'Once a wargame is in place, players login to their assigned roles, and the turn-based wargame is conducted.  After players produce their force plans for the next cycle, a white/umpire force resolves a new state-of-the-world, resolving engagements as necessary.'
+      - paragraph: 'All messages are logged for subsequent analysis, and wargames can be restarted at any past point - for players to reconsider plans of action.'
+
+  - title: 'Pepys<span>app</span>'
+    id-nav: 'pepys'
+    img_first: true
+    image: ../assets/images/Samuel_Pepys_transparent.svg
+    image_id: pf-section-img-6
+    image_x: '20'
+    image_y: '10'
+    image_width: '324'
+    image_height: '300'
+    text:
+      - paragraph: 'The Pepys library provides tools to populate and administer a relational database of tactica data.'
+      - paragraph: 'An API is provided that does the leg work in parsing data from text data-files, then committing it to the database.  Additional functionality is able to produce a copy of the input file that uses highlighting to report how the data was processed.  Database integrity is maintained through the use of a conversational interface that efficiently enables analysts to specify supporting metadata (such as pennant-number and nationality of warships, or the protective marking on a datafile).'
+      - paragraph: 'Once the data is loaded, an admin application is used to manage the data, shielding analysts from the complexities of database management. The admin tool is able to export snapshots for offline deployments, then merge data collected on deployment back into the master database.'
+      - paragraph: 'The robust command-line interface provided for both Pepys-Import and Pepys-Admin makes heavy use of numeric options with intelligent default, allowing proficient analysts to quickly move through complex tasks.'
+
+
+
   - title: 'Fleet Narrative <span>tool</span>'
     id-nav: 'flnt'
     img_first: false
     image: ../assets/images/feet-narrative-tool.jpg
     image_id: pf-section-img-3
     image_x: '-110'
+    image_y: '0'
     image_width: '500'
     image_height: '600'
     text:
@@ -45,6 +83,7 @@ section:
     image: ../assets/images/fleet-lessons-management-system.png
     image_id: pf-section-img-4
     image_x: '-70'
+    image_y: '0'
     image_width: '487'
     image_height: '325'
     text:
