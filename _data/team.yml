@@ -1,0 +1,50 @@
+top:
+  - title: 'Ian Mayo'
+    subtitle: 'Director & Head of Engineering, since 2000 '
+    image: ../assets/images/ian_mayo.jpg
+    image_id: team-ian-mayo
+    image_x: '0'
+    image_y: '0'
+    image_width: '270'
+    image_height: '270'
+    text:
+      - paragraph: 'Ian has studied and worked in the Marine Technology environment since 1987, and the defence domain since 1992. Back in 1990 he developed the predecessor to the modern electronic navigational chart as part of his Master of Philosophy research Degree from the University of Plymouth, UK.'
+      - paragraph: 'Since then he has worked on surface and submarine command systems, oceanographic support systems, and developed a range of tools related to the development, management and analysis of maritime exercises using both web and desktop technologies.  He also spent 10 years at the pointy end of the Royal Navy’s Fleet Lessons Management System (FLMS) from it’s inception in 2003 to porting the data to the UK’s defence-wide solution in 2013. Along the way he gave knowledge management and business process support to the rolling uniformed lessons management team, participating in (and presenting to) several international conferences.'
+      - paragraph: 'Ian created Deep Blue C Technology Ltd (formerly known as PlanetMayo Ltd) in 2000 to allow him to undertake larger challenges, and solve interesting problems across a wider market using a rich network of trusted partners.'
+    team:
+      - title: 'Andrea Antonello'
+        subtitle: 'GIS Consultant, since 2010'
+        image: ../assets/images/andrea_antonello.png
+        image_id: team-andrea-antonello
+        image_x: '0'
+        image_y: '-5'
+        image_width: '270'
+        image_height: '270'
+        text:
+          - paragraph: 'Andrea graduated in Environmental and Territorial Engineering at the University of Trento and gained a PhD at the Department of Earth Sciences of the University of Urbino.'
+          - paragraph: 'Andrea coordinates the Open Source JGrass, BeeGIS and Geopaparazzi projects, and has been a member of the uDig Project Steering Committee.'
+          - paragraph: 'His guidance spearheaded Debrief’s adoption of the GeoTools library, opening opportunities for delivering Admiralty Charts, Natural Earth, and many other datasets to bring context to analysts.'
+      - title: 'Julie Witmer'
+        subtitle: 'Cartographer, since 2015'
+        image: ../assets/images/julie_witmer.png
+        image_id: team-julie_witmer
+        image_x: '-10'
+        image_y: '-10'
+        image_width: '275'
+        image_height: '275'
+        text:
+          - paragraph: 'Andrea graduated in Environmental and Territorial Engineering at the University of Trento and gained a PhD at the Department of Earth Sciences of the University of Urbino.'
+          - paragraph: 'Andrea coordinates the Open Source JGrass, BeeGIS and Geopaparazzi projects, and has been a member of the uDig Project Steering Committee.'
+          - paragraph: 'His guidance spearheaded Debrief’s adoption of the GeoTools library, opening opportunities for delivering Admiralty Charts, Natural Earth, and many other datasets to bring context to analysts.'
+      - title: 'Andrea Antonello'
+        subtitle: 'Web Developer, since 2013'
+        image: ../assets/images/andrea_antonello_2.png
+        image_id: team-andrea-antonello-2
+        image_x: '0'
+        image_y: '-15'
+        image_width: '270'
+        image_height: '270'
+        text:
+          - paragraph: 'Andrea graduated in Environmental and Territorial Engineering at the University of Trento and gained a PhD at the Department of Earth Sciences of the University of Urbino.'
+          - paragraph: 'Andrea coordinates the Open Source JGrass, BeeGIS and Geopaparazzi projects, and has been a member of the uDig Project Steering Committee.'
+          - paragraph: 'His guidance spearheaded Debrief’s adoption of the GeoTools library, opening opportunities for delivering Admiralty Charts, Natural Earth, and many other datasets to bring context to analysts.'
