@@ -40,8 +40,8 @@ section:
     text:
       - paragraph: '<b>Serge - Serious Gaming, Evolved</b>'
       - paragraph: 'Serge is a web-based wargaming environment, used for the analysis and development of distributed tactical command and control scenarios.'
-      - paragraph: 'Serge allows a Game Designer has designed a wargame comprising:'
-      - paragraph: 'A number of forces, each comprising a number of roles, and optionally including platforms/assets belonging to that force'
+      - paragraph: 'Serge allows a Game Designer to design a wargame comprising:'
+      - paragraph: 'A number of forces, each comprising a number of roles, and optionally including platforms/assets belonging to that force.'
       - paragraph: 'A set of channels (chat-rooms), with specific role participants, with either plain chat messages, or formatted message structures'
       - paragraph: 'Once a wargame is in place, players login to their assigned roles, and the turn-based wargame is conducted.  After players produce their force plans for the next cycle, a white/umpire force resolves a new state-of-the-world, resolving engagements as necessary.'
       - paragraph: 'All messages are logged for subsequent analysis, and wargames can be restarted at any past point - for players to reconsider plans of action.'
