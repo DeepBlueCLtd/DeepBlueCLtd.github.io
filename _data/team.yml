@@ -12,39 +12,91 @@ top:
       - paragraph: 'Since then he has worked on surface and submarine command systems, oceanographic support systems, and developed a range of tools related to the development, management and analysis of maritime exercises using both web and desktop technologies.  He also spent 10 years at the pointy end of the Royal Navy’s Fleet Lessons Management System (FLMS) from it’s inception in 2003 to porting the data to the UK’s defence-wide solution in 2013. Along the way he gave knowledge management and business process support to the rolling uniformed lessons management team, participating in (and presenting to) several international conferences.'
       - paragraph: 'Ian created Deep Blue C Technology Ltd (formerly known as PlanetMayo Ltd) in 2000 to allow him to undertake larger challenges, and solve interesting problems across a wider market using a rich network of trusted partners.'
     team:
-      - title: 'Andrea Antonello'
-        subtitle: 'GIS Consultant, since 2010'
-        image: ../assets/images/andrea_antonello.png
-        image_id: team-andrea-antonello
+      - title: 'Saul Hidalgo'
+        subtitle: 'Senior Java Developer since 2018'
+        image: ../assets/images/saul_hidalgo.jpg
+        image_id: team-saul-hidalgo
+        image_x: '-20'
+        image_y: '-10'
+        image_width: '300'
+        image_height: '300'
+        text:
+          - paragraph: 'Saul is a senior C++, Java and .Net Software Developer working with National Security, Defense, Oil and Cement companies. He’s also taught at the Laboratory of Algorithms and Data Structures at Simon Bolivar University.'
+          - paragraph: 'Saul helped port the PPTX exportable format for Debrief Recording. He’s also implemented functionalities like SVG support, MSI Installer, Scripting using Eclipse Ease, and Database Import among others. He’s a big part of the Debrief Lite team.'
+      
+      - title: 'Ayesha Abdulla'
+        subtitle: 'Senior Java Developer since 2018'
+        image: ../assets/images/ayesha_abdulla.jpg
+        image_id: team-ayesha-abdulla
+        image_x: '-415'
+        image_y: '-235'
+        image_width: '1200'
+        image_height: '750'
+        text:
+          - paragraph: 'Ayesha graduated as an electronics engineer and spent time in psychological testing, mobile phone carrier aggregation, metrics, and security. She was on the founding engineering team of Athena Security, which was later acquired by a US based security company.'
+          - paragraph: 'Ayesha’s made significant contributions to the user interface of Debrief and Debrief Lite, particularly in spearheaded the move to Flamingo Ribbon for the Menus and Toolbars in Debrief Lite.'
+     
+      - title: 'Helen Ayele'
+        subtitle: 'QA specialist since 2018'
+        image: ../assets/images/helen_ayele.png
+        image_id: team-helen-ayele
+        image_x: '-10'
+        image_y: '5'
+        image_width: '290'
+        image_height: '290'
+        text:
+          - paragraph: 'Helen is an experienced software Quality Assurance Specialist. She’s worked as both manual and automation tester in the financial services industry for over 6 years. She’s skilled in Java, Angular, Html, CSS, Selenium WebDriver, RCPTT, QF-Test, and SQL Databases.'
+          - paragraph: 'Today Helen helps Deep Blue C with its quality control through manual testing of all software changes prior to approval, together with holistic testing prior to release.'
+
+      - title: 'Celine Lenoble'
+        subtitle: 'UX Designer since 2019'
+        image: ../assets/images/celine_lenoble.jpg
+        image_id: team-celine-lenoble
         image_x: '0'
         image_y: '-5'
+        image_width: '265'
+        image_height: '265'
+        text:
+          - paragraph: 'Celine has a background in Geography and Anthropology. Today she specializes in UX for machine learning applications.'
+          - paragraph: 'Celine was instrumental to developing the Debrief-lite UI, working on information architecture, interactions, and wireframes. She also did a full audit of the Debrief UX, and worked on the UI (user flow, wireframes and low-fidelity prototypes) of Serge.'
+     
+
+      - title: 'Rahib Maruf Iftekhar'
+        subtitle: 'Business Strategy Consultant since 2014 '
+        image: ../assets/images/rahib_maruf_iftekhar.jpg
+        image_id: team-rahib-maruf-iftekhar
+        image_x: '-37'
+        image_y: '-22'
+        image_width: '360'
+        image_height: '360'
+        text:
+          - paragraph: 'Rahib is a specialist in business strategy with 8+ years of sales and marketing experience in finance, business services, ecommerce and software companies. '
+          - paragraph: 'Rahib provided great support in the 2014/2015 makeover of the Debrief analysis tool, providing support in marketing content and developing the brand identities of both Debrief and Deep Blue C.'
+          
+
+
+
+      - title: 'Yana Khlaponina'
+        subtitle: 'Graphic Developer since 2018'
+        image: ../assets/images/yana_khlaponina.jpg
+        image_id: team-yana-khlaponina
+        image_x: '-245'
+        image_y: '-165'
+        image_width: '680'
+        image_height: '680'
+        text:
+          - paragraph: 'Yana graduated in Computer Science and spent 6 years as a front end developer before specializing in front end graphic design. '
+          - paragraph: 'She’s made major contributions to Debrief’s look and feel, including SVG icons for Debrief, and Serge, as well as the Debrief Lite, and Pepys library logos. She also developed static websites for Debrief and Deep Blue C. '          
+
+      - title: 'Dr. Robin Wilson'
+        subtitle: 'Senior Python developer since 2020 '
+        image: ../assets/images/robin_wilson.png
+        image_id: team-robin-wilson
+        image_x: '2'
+        image_y: '0'
         image_width: '270'
         image_height: '270'
         text:
-          - paragraph: 'Andrea graduated in Environmental and Territorial Engineering at the University of Trento and gained a PhD at the Department of Earth Sciences of the University of Urbino.'
-          - paragraph: 'Andrea coordinates the Open Source JGrass, BeeGIS and Geopaparazzi projects, and has been a member of the uDig Project Steering Committee.'
-          - paragraph: 'His guidance spearheaded Debrief’s adoption of the GeoTools library, opening opportunities for delivering Admiralty Charts, Natural Earth, and many other datasets to bring context to analysts.'
-      - title: 'Julie Witmer'
-        subtitle: 'Cartographer, since 2015'
-        image: ../assets/images/julie_witmer.png
-        image_id: team-julie_witmer
-        image_x: '-10'
-        image_y: '-10'
-        image_width: '275'
-        image_height: '275'
-        text:
-          - paragraph: 'Andrea graduated in Environmental and Territorial Engineering at the University of Trento and gained a PhD at the Department of Earth Sciences of the University of Urbino.'
-          - paragraph: 'Andrea coordinates the Open Source JGrass, BeeGIS and Geopaparazzi projects, and has been a member of the uDig Project Steering Committee.'
-          - paragraph: 'His guidance spearheaded Debrief’s adoption of the GeoTools library, opening opportunities for delivering Admiralty Charts, Natural Earth, and many other datasets to bring context to analysts.'
-      - title: 'Andrea Antonello'
-        subtitle: 'Web Developer, since 2013'
-        image: ../assets/images/andrea_antonello_2.png
-        image_id: team-andrea-antonello-2
-        image_x: '0'
-        image_y: '-15'
-        image_width: '270'
-        image_height: '270'
-        text:
-          - paragraph: 'Andrea graduated in Environmental and Territorial Engineering at the University of Trento and gained a PhD at the Department of Earth Sciences of the University of Urbino.'
-          - paragraph: 'Andrea coordinates the Open Source JGrass, BeeGIS and Geopaparazzi projects, and has been a member of the uDig Project Steering Committee.'
-          - paragraph: 'His guidance spearheaded Debrief’s adoption of the GeoTools library, opening opportunities for delivering Admiralty Charts, Natural Earth, and many other datasets to bring context to analysts.'
+          - paragraph: 'Robin holds a PhD in Atmospheric Remote Sensing. He has a fellowship at the Software Sustainability Institute. '
+          - paragraph: 'Robin is a major programmer on the Pepys project. His specialties are processing geographical data, and Python for data heavy applications. '
+          - paragraph: 'Robin led a UN science team during the 2015 Nepal earthquake and won the Global Mobile Awards in 2016. He’s also an expert at satellite image atmospheric correction. '
