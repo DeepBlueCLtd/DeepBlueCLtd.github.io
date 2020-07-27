@@ -3,10 +3,10 @@ top:
     subtitle: 'Director & Head of Engineering, since 2000 '
     image: ../assets/images/ian_mayo.jpg
     image_id: team-ian-mayo
-    image_x: '0'
-    image_y: '0'
-    image_width: '270'
-    image_height: '270'
+    image_x: '-65'
+    image_y: '-38'
+    image_width: '385'
+    image_height: '385'
     text:
       - paragraph: 'Ian has studied and worked in the Marine Technology environment since 1987, and the defence domain since 1992. Back in 1990 he developed the predecessor to the modern electronic navigational chart as part of his Master of Philosophy research Degree from the University of Plymouth, UK.'
       - paragraph: 'Since then he has worked on surface and submarine command systems, oceanographic support systems, and developed a range of tools related to the development, management and analysis of maritime exercises using both web and desktop technologies.  He also spent 10 years at the pointy end of the Royal Navy’s Fleet Lessons Management System (FLMS) from it’s inception in 2003 to porting the data to the UK’s defence-wide solution in 2013. Along the way he gave knowledge management and business process support to the rolling uniformed lessons management team, participating in (and presenting to) several international conferences.'
