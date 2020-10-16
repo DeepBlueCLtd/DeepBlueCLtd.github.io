@@ -1,0 +1,38 @@
+block:
+  - title: 'Unacceptable <br><span>Behavior</span> '
+    subtitle: 'The following behaviors are considered harassment and are unacceptable within our community:'
+    list:
+      
+      - text: 'Demeaning, discriminatory, or harassing behavior and speech, violence, threats of violence or violent language directed against another person.ces.'
+        title: 'Unacceptably'
+
+      - text: 'Unwelcome sexual attention. This includes, sexualized comments or jokes; inappropriate touching, groping, and unwelcomed sexual advances.'
+        title: 'Unacceptably'
+
+      - text: 'Inappropriate physical contact. You should have someone’s consent before touching them.'
+        title: 'Unacceptably'
+
+      - text: 'Posting or threatening to post other people’s personally identifying information ("doxing").'
+        title: 'Unacceptably'
+
+      - text: 'Personal insults, particularly those related to gender, sexual orientation, race, religion, or disability.'
+        title: 'Unacceptably'
+      
+      - text: 'Sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory jokes and language.'
+        title: 'Unacceptably'
+      
+      - text: 'Communicating sexually explicit or violent material.'
+        title: 'Unacceptably'
+
+      - text: 'Advocating for, or encouraging, any of the above behavior.'
+        title: 'Unacceptably'
+      
+      - text: 'Deliberate intimidation, stalking or following (online or in person).'
+        title: 'Unacceptably'
+
+      - text: 'Inappropriate photography or recording.'
+        title: 'Unacceptably'
+
+      - text: 'Sustained disruption of company events, including talks and presentations.'
+        title: 'Unacceptably'
+        
