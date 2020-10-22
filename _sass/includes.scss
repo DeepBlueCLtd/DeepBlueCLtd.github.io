@@ -141,6 +141,35 @@
       }
     }
   }
+  &__coc {
+    background-size: 30%;
+    background-image: url(../images/dbc_logo_normal.svg);
+    background-position: 95% 3%;
+    @include media-breakpoint-up (md) {
+      background-size: 30%;
+      background-position: 90% 5%;
+    }
+    @media (min-width: 856px) {
+      background-size: 45%;
+      background-position: 90% 10%;
+    }
+    @include media-breakpoint-up (lg) {
+      background-size: 50%;
+      background-position: 95% center;
+    }
+    @include media-breakpoint-up (xl) {
+      background-size: 55%;
+      background-position: 90% 83%;
+    }
+    @media (min-width: 1500px) {
+      background-size: 50%;
+      background-position: left 90% center;
+    }
+    @media (min-width: 2000px) {
+      background-size: contain;
+      background-position: left 85% center;
+    }
+  }
 }
 
 

@@ -357,7 +357,63 @@
     }
 }
 
+// Code of Conduct page
+.coc-nav {
+    &__hex {
+        width:100%;
+        margin:0 auto;
+        position: absolute;
+        left: 0;
+        height: 180px;
+    }
+    &__arrow {
+        margin:0 auto;
+        width: 100%;
+        height: 180px;
+    }
+    &__link {
+        position: relative;
+        &:hover {
+            .coc-nav__hex {
+                transform: translate(0, -5px);
+                transition: all 500ms ease-in;
+                transition-delay: 0s;
+                 @include media-breakpoint-up (lg) {
+                    transform: translate(0, -5px);
+                 }
+            }
+            .coc-nav__arrow {
+                transform: translate(0, 20px);
+                transition: all 500ms ease-in;  
+                transition-delay: 0s;
 
+                 @include media-breakpoint-up (lg) {
+                    transform: translate(0, 20px);
+                 }
+            }
+            .coc-nav__title {
+                color: $white;
+            }
+        }
+    }
+    &__offset {
+        @include media-breakpoint-between(sm, md){
+            margin-left: 12.4%;
+        }
+        &--xs {
+            @include media-breakpoint-down (xs) {
+                margin-left: 25%;
+            }
+        }
+    }
+}
+
+.thanks-block {
+    background-size: contain;
+    background-image: url(../images/Thanks.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
 // 404
 .error-page {
     font-size: 4rem;
