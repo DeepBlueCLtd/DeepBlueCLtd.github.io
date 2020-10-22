@@ -33,4 +33,3 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 # Added these steps according to this article:
 # https://blog.heroku.com/jekyll-on-heroku
 gem "rake"
-ruby "2.4.2"
