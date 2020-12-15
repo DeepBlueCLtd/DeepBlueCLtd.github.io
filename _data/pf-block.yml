@@ -56,7 +56,7 @@ section:
     image_width: '324'
     image_height: '300'
     text:
-      - paragraph: 'The Pepys library provides tools to populate and administer a relational database of tactica data.'
+      - paragraph: 'The Pepys library provides tools to populate and administer a relational database of tactical data.'
       - paragraph: 'An API is provided that does the leg work in parsing data from text data-files, then committing it to the database.  Additional functionality is able to produce a copy of the input file that uses highlighting to report how the data was processed.  Database integrity is maintained through the use of a conversational interface that efficiently enables analysts to specify supporting metadata (such as pennant-number and nationality of warships, or the protective marking on a datafile).'
       - paragraph: 'Once the data is loaded, an admin application is used to manage the data, shielding analysts from the complexities of database management. The admin tool is able to export snapshots for offline deployments, then merge data collected on deployment back into the master database.'
       - paragraph: 'The robust command-line interface provided for both Pepys-Import and Pepys-Admin makes heavy use of numeric options with intelligent default, allowing proficient analysts to quickly move through complex tasks.'
