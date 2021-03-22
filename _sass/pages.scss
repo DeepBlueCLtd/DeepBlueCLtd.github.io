@@ -357,6 +357,187 @@
     }
 }
 
+
+//Freelancing page
+.freelancing-block {
+    position: relative;
+    margin-bottom: 7rem;
+    @include media-breakpoint-up (md) {
+        margin-bottom: 4rem;
+    }
+}
+.freelancing-pic-wrap {
+    position: absolute;
+
+    &--left {
+        right: 0%;
+        top: -10%;
+        @include media-breakpoint-up (md) {
+            left: -16%;
+            top: 0%;
+        }
+        @include media-breakpoint-up (lg) {
+            left: 0%;
+            top: 4%;
+        }
+        @include media-breakpoint-up (xl) {
+            left: 0%;
+            top: 4%;
+        }
+    }
+    &--right {
+        right: 0%;
+        top: -10%;
+        @include media-breakpoint-up (md) {
+            right: -16%;
+            top: 0%;
+        }
+        @include media-breakpoint-up (lg) {
+            right: 0%;
+            top: 4%;
+        }
+        @include media-breakpoint-up (xl) {
+            right: 0%;
+            top: 4%;
+        }
+    }
+    &--dbc {
+        @include media-breakpoint-down (sm) {
+            top: -50%;
+            left: 0%;
+        }
+    }
+    &--contact {
+        @include media-breakpoint-down (sm) {
+            top: -25%;
+            right: -4%;
+        }
+        @include media-breakpoint-down (xs) {
+            top: -33%;
+            right: -4%;
+        }
+    }
+    &--planning {
+        @include media-breakpoint-down (sm) {
+            left: -6%;
+            top: -32%;
+        }
+        @include media-breakpoint-down (xs) {
+            left: -6%;
+            top: -29%;
+        }
+    }
+    &--general {
+        @include media-breakpoint-down (sm) {
+            top: -25%;
+            right: -4%;
+        }
+        @include media-breakpoint-down (xs) {
+            top: -31%;
+            right: -5%;
+        }
+    }
+    &--development {
+        @include media-breakpoint-down (sm) {
+            top: -23%;
+            left: -4%;
+        }
+        @include media-breakpoint-down (xs) {
+            top: -27%;
+            left: -4%;
+        }
+    }
+    &--upwork {
+        @include media-breakpoint-down (sm) {
+            top: -22%;
+            right: 0%;
+        }
+        @include media-breakpoint-down (xs) {
+            top: -33%;
+            right: 0%;
+        }
+    }
+}
+.freelancing-pic {
+    max-width: 400px;
+    height: auto;
+    &--ian {
+        @include media-breakpoint-down (sm) {
+            max-width: 280px;
+        }
+        @include media-breakpoint-down (xs) {
+            max-width: 200px;
+        }
+    }
+    &--dbc {
+        height: 450px;
+        @include media-breakpoint-down (sm) {
+            max-width: 320px;
+            height: 300px;
+        }
+        @include media-breakpoint-down (xs) {
+            max-width: 240px;
+            height: 270px;
+        }
+    }
+    &--contact {
+        max-width: 490px;
+        @include media-breakpoint-down (sm) {
+            max-width: 320px;
+            height: 300px;
+        }
+        @include media-breakpoint-down (xs) {
+            max-width: 280px;
+            height: 300px
+        }
+    }
+    &--planning {
+        max-width: 490px;
+        @include media-breakpoint-down (sm) {
+            max-width: 380px;
+            height: 350px;
+        }
+        @include media-breakpoint-down (xs) {
+            max-width: 280px;
+            height: 270px;
+        }
+    }
+    &--general {
+        max-width: 490px;
+        @include media-breakpoint-down (sm) {
+            max-width: 320px;
+            height: 300px;
+        }
+        @include media-breakpoint-down (xs) {
+            max-width: 250px;
+        }
+    }
+    &--development {
+        max-width: 490px;
+        @include media-breakpoint-down (sm) {
+            max-width: 320px;
+            height: 300px;
+        }
+        @include media-breakpoint-down (xs) {
+            max-width: 250px;
+            height: 300px;
+        }
+    }
+    &--upwork {
+        max-width: 490px;
+        @include media-breakpoint-down (sm) {
+            max-width: 320px;
+            height: 300px;
+        }
+        @include media-breakpoint-down (xs) {
+            max-width: 280px;
+            height:300px;
+        }
+    }
+    
+}
+
+
 // Code of Conduct page
 #coc-menu {
     padding-top: 5.375rem;
