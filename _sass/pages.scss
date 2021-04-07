@@ -718,11 +718,11 @@
             padding-top: 2rem;
         }
         @include media-breakpoint-up (md) {
-            background-size: 48%;
+            background-size: 44%;
             background-position: 82% 0%;
         }
         @include media-breakpoint-up (lg) {
-            background-size: 45%;
+            background-size: 41%;
             background-position: 91% 0%;
         }
         @include media-breakpoint-up (xl) {
@@ -736,18 +736,18 @@
     &__expected-behavior {
         background-size: 50%;
         background-image: url(../images/Do.svg);
-        background-position: 100% 0%;
+        background-position: 100% 4%;
         @media (min-width: 600px)  {
-            background-position: 90% 10%;
+            background-position: 95% 4%;
             padding-top: 2rem;
         }
         @include media-breakpoint-up (md) {
-            background-size: 50%;
-            background-position: 85% 0%;
+            background-size: 44%;
+            background-position: 91% 4%;
         }
         @include media-breakpoint-up (lg) {
             background-size: 45%;
-            background-position: 91% 0%;
+            background-position: 91% 3%;
         }
         @include media-breakpoint-up (xl) {
             background-size: 36rem;
