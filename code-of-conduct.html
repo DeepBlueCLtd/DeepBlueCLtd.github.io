@@ -3,7 +3,25 @@ layout: default
 title: Deep Blue C Technology Ltd
 ---
 
-{% include header-page.html title="Code of <span>Conduct</span>" class="header-block__coc" text="A primary goal of Deep Blue C is to make a positive difference to UK Defence Capability. As such, we are committed to providing a friendly, safe and welcoming environment for all who support the same goal, regardless of their gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).</br>This code of conduct outlines our expectations for all those who work with Deep Blue C, as well as the consequences for unacceptable behavior." btn="Read" btn-url="#coc-menu" link-url="#coc-menu"  link-symbol="&#8681;" %}
+
+<header class="header-block pt-5 header-block__coc" role="banner">
+    <div class="container ">
+        <div class="row">
+          <div class="col-6 col-lg-8 col-xl-7">
+            <h1 class="font-weight-bold mb-6 title-1 mt-7">Code of <span>Conduct</span></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-10 col-lg-7 col-xl-6">
+            <p class="font-weight-light mt-2 lh-15 d-block mb-5 mt-0">A primary goal of Deep Blue C is to make a positive difference to UK Defence Capability. As such, we are committed to providing a friendly, safe and welcoming environment for all who support the same goal, regardless of their gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).</br>This code of conduct outlines our expectations for all those who work with Deep Blue C, as well as the consequences for unacceptable behavior.
+            </p>    
+            <a href="#coc-menu" class="btn btn-lg btn-primary mb-6">
+              Read
+            </a>
+          </div>
+        </div>
+    </div>
+</header> 
 
 <section class="mb-200 mt-100 pt-5" id="coc-menu">
     <div class="container"> 
@@ -97,29 +115,35 @@ title: Deep Blue C Technology Ltd
     </div>
 </section>
 
-<section class="mb-200" id="open-source-culture">
+<section class="mb-200 section-pic section-pic__open-source-culture" id="open-source-culture">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-5 mobile__title">
+            <div class="col-12 col-md-6">
                 <h2 class="title-2">Open Source<br><span>Culture</span> </h2>
             </div>
-            <div class="col-12 col-sm-10 offset-sm-1">
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-10 col-xl-5 offset-sm-1">
                 <h5 class="font-weight-normal mt-6">A supplemental goal of this Code of Conduct is to champion open source culture by encouraging team members to use open source and easily accessible tools as much as possible. </h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-10 offset-sm-1">
                 <h5 class="font-weight-normal mt-5">It is a matter of professional pride for us that we are open source champions and we would like to encourage all who work with us to pay it forward. </h5>
             </div>
         </div>
     </div>
 </section>
 
-<section class="mb-200" id="expected-behavior">
+<section class="mb-200 section-pic section-pic__expected-behavior" id="expected-behavior">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-5 mobile__title">
+            <div class="col-12 col-md-5">
                 <h2 class="title-2">Expected <br><span>Behavior</span></h2>
             </div>
         </div>
         <div class="row">
-            <div class="col-12 col-md-6 offset-md-1">
+            <div class="col-8 col-md-6 col-xl-5 offset-md-1">
                 <h4 class="mt-4 mb-6 title-4 text-body">The following behaviors are expected and requested of all team members:</h4>
             </div>
             <div class="col-12 col-sm-10 offset-sm-1">
@@ -243,7 +267,7 @@ title: Deep Blue C Technology Ltd
 
 
 {% for section in site.data.unacceptable-behavior.block %} 
-<section class="numbered-list mb-200" id="unacceptable-behavior">
+<section class="numbered-list section-pic section-pic__unacceptable-behavior" id="unacceptable-behavior">
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-5 col-xl-4 numbered-list__title mobile__title">
@@ -273,7 +297,7 @@ title: Deep Blue C Technology Ltd
                     {% endfor %}
                 </div>
             </div>
-           <div class="col-12 col-md-8 mt-3">
+           <div class="col-6 col-lg-4 mt-3">
                 <h5>This code is not exhaustive or complete. It serves to distill our common understanding of a collaborative, shared environment, and goals. We expect it to be followed in spirit as much as in the letter.</h5>  
            </div>
         </div>
@@ -282,14 +306,20 @@ title: Deep Blue C Technology Ltd
 {% endfor %}
 
 
-<section class="mb-200" id="consequences-of-unacceptable-behavior">
+<section class="mb-200 section-pic section-pic__consequences-of-unacceptable-behavior" id="consequences-of-unacceptable-behavior">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-9 mobile__title">
+            <div class="col-12 col-md-9">
                 <h2 class="title-2">Consequences of <br><span>Unacceptable Behavior</span></h2>
             </div>
-            <div class="col-12 col-sm-10 offset-sm-1">
+        </div>
+        <div class="row">
+            <div class="col-6 col-md-10 offset-sm-1">
                 <h5 class="font-weight-normal mt-6">Unacceptable behavior from any community member, including patrons and those with decision-making authority, will not be tolerated.</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-10 offset-sm-1">
                 <h5 class="font-weight-normal mt-5">Anyone asked to stop unacceptable behavior is expected to comply immediately.</h5>
                 <h5 class="font-weight-normal mt-5">Project managers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.</h5>
                 <h5 class="font-weight-normal mt-5">Project managers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to reassign or terminate any employee for other behaviors that they deem are not aligned with this code of conduct.</h5>
@@ -298,15 +328,19 @@ title: Deep Blue C Technology Ltd
     </div>
 </section>
 
-<section class="mb-200" id="reporting-guidelines">
+<section class="mb-200 section-pic section-pic__reporting-guidelines" id="reporting-guidelines">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-9 mobile__title">
+            <div class="col-12 col-md-9">
                 <h2 class="title-2">Reporting </br><span>Guidelines</span></h2>
             </div>
-            <div class="col-12 col-sm-10 offset-sm-1">
+            <div class="col-8 col-sm-6 col-md-10 col-lg-5 offset-sm-1">
                 <h5 class="font-weight-normal mt-6">If you are subject to or witness unacceptable behavior, or have any other concerns, please notify your project manager as soon as possible. All reports will be handled with discretion.</h5>
-                <div class="row mb-6 highlighting-block highlighting-block--left">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-10 offset-sm-1"> 
+                <div class="row highlighting-block highlighting-block--left">
                     <div class="highlighting-block__hex highlighting-block__hex--left">
                         <svg width="364" height="326" viewBox="0 0 364 326" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M289.124 19.5165L361.115 173.312C362.185 175.597 361.942 178.282 360.479 180.338L259.851 321.724C258.423 323.73 256.047 324.838 253.592 324.643L80.8487 310.871C78.3403 310.671 76.1323 309.14 75.0654 306.861L2.88302 152.685C1.81376 150.401 2.05559 147.718 3.51607 145.662L103.95 4.28994C105.38 2.27684 107.765 1.1662 110.227 1.36722L283.354 15.5074C285.857 15.7119 288.059 17.2418 289.124 19.5165Z" stroke="#E0E0E0" stroke-width="2"/>
@@ -351,19 +385,19 @@ title: Deep Blue C Technology Ltd
                     <div class="col-12 col-md-3 text-center offset-lg-1">
                     </div>
                 </div>
-                <h5 class="font-weight-normal mt-5">Once you file a report, your project manager will deal with the incident, and/or forward it to Deep Blue C management, so someone higher up can contact you personally to review the incident, follow up with any additional questions, and make a decision as to how to respond.</h5>
+                <h5 class="font-weight-normal">Once you file a report, your project manager will deal with the incident, and/or forward it to Deep Blue C management, so someone higher up can contact you personally to review the incident, follow up with any additional questions, and make a decision as to how to respond.</h5>
             </div>
         </div>
     </div>
 </section>
 
-<section class="mb-200" id="addressing-grievances">
+<section class="section-pic section-pic__addressing-grievances" id="addressing-grievances">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-9 mobile__title">
+            <div class="col-12 col-md-9">
                 <h2 class="title-2">Addressing <br><span>Grievances</span></h2>
             </div>
-            <div class="col-12 col-sm-10 offset-sm-1">
+            <div class="col-12 col-sm-10 col-md-7 col-lg-5 offset-sm-1">
                 <h5 class="font-weight-normal mt-6">If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify your project manager with a concise description of your grievance. Your grievance will be handled in the same fashion as the original report. 
                 </h5>
             </div>
@@ -371,23 +405,23 @@ title: Deep Blue C Technology Ltd
     </div>
 </section>
 
-<section class="mb-200" id="contact-info">
+<section class="section-pic section-pic__contact-info" id="contact-info">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-9 mobile__title">
+            <div class="col-12 col-md-9">
                 <h2 class="title-2">Contact <br><span>info</span></h2>
             </div>
-            <div class="col-12 col-sm-10 col-lg-8 col-xl-7 offset-sm-1">
+            <div class="col-12 col-sm-6 offset-sm-1">
                 <h5 class="font-weight-normal mt-6">If there is any confusion regarding this code of conduct or it’s application, please address your questions to:</h5>
             </div>
-            <div class="col-9 col-sm-6 offset-4 offset-sm-5 offset-lg-6">
+            <div class="col-9 col-sm-8 col-md-6 offset-3 offset-sm-4">
                 <h5 class="text-primary font-weight-semibold">Ian Mayo, ian@DeepBlueC.com</h5>
             </div>
         </div>
     </div>
 </section>
 
-<section class="mb-200 thanks-block">
+<section class="thanks-block">
     <div class="container">
         <div class="row">
             <div class="col-12 col-sm-10 offset-sm-1">
@@ -395,5 +429,10 @@ title: Deep Blue C Technology Ltd
                     This code of conduct is based on the Open Code of Conduct from Twitter. We all stand on the shoulders of giants across many open source communities. We are thankful for their work and all the communities who have paved the way with code of conducts.</h5>
             </div>
         </div>
+    </div>
+</section>
+<section >
+    <div class="container">
+        <div class="section-pic section-pic__thanks-block-pic"></div>
     </div>
 </section>
