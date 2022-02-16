@@ -1,0 +1,54 @@
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+	width: 400px;
+}
+
+.dialogVPanel {
+	margin: 5px;
+}
+
+.serverResponseLabelError {
+	color: red;
+}
+
+div#Entry span {
+	font-family:sans-serif;
+	line-height: 120%;
+}
+div#Entry {
+	padding-bottom: 0.2em;
+	}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+	margin: 15px 6px 6px;
+}
+
+.EntryPanel {
+	border: 1px solid gray;
+}
+
+#eType,#eDate {
+	font-weight: bold;
+}
+
+.clsHidden {
+	display: none;
+}
+
+#eVisibility {
+	background-repeat: no-repeat;
+	color: transparent;
+}
+
+#eVisibility.Private {
+	background-image: url("css_images/red.gif");
+}
+
+#eVisibility.Club {
+	background-image: url("css_images/amber.gif");
+}
+
+#eVisibility.Family {
+	background-image: url("css_images/green.gif");
+}
