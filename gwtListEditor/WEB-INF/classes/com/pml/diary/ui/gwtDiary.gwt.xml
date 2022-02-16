@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='gwtDiary'>
+	<!-- Inherit the core Web Toolkit stuff. -->
+	<inherits name='com.google.gwt.user.User' />
+	<inherits name="com.google.gwt.i18n.I18N"/>
+    <inherits name="com.google.gwt.i18n.CldrLocales"/>
+    <!-- inherit the themeResources modules (not theme modules) , so we
+       can control which stylesheet gets injected (as we have to inject it
+       ourselves) -->
+    <inherits name="com.google.gwt.user.theme.standard.StandardResources"/>
+    <inherits name="com.google.gwt.user.theme.chrome.ChromeResources"/>
+    <inherits name="com.google.gwt.user.theme.dark.DarkResources"/>
+    
+	<!-- inherit the GWT HTTP module to be able to use HTTP client -->
+	<inherits name="com.google.gwt.http.HTTP" />
+	<!-- inherit the GWT JSON module to be able to use JSON parser -->
+	<inherits name="com.google.gwt.json.JSON" />
+	<!-- inherit the GWT JSONP module to be able to use JsonpRequestBuilder -->
+	<inherits name="com.google.gwt.jsonp.Jsonp" />
+	<!-- Inherit the default GWT style sheet. You can change -->
+	<!-- the theme of your GWT application by uncommenting -->
+	<!-- any one of the following lines. -->
+	
+	<!--<inherits name='com.google.gwt.user.theme.standard.Standard' />
+	<inherits name='com.google.gwt.user.theme.chrome.Chrome'/> 
+	<inherits name='com.google.gwt.user.theme.dark.Dark'/> 
+
+	--><!-- Other module inherits -->
+
+	<!-- Specify the app entry point class. -->
+	<entry-point class='com.pml.diary.ui.client.GwtDiaryEditor' />
+
+	<!-- Specify the paths for translatable code -->
+	<source path='client' />
+	<source path='shared' />
+
+</module>

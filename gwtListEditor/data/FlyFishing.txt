@@ -1,0 +1,31 @@
+toolbarCallBack(
+{
+  "DiaryUI" :  {
+			  "name"  : "Fly Fishing Diary",
+			  "items" : [ 
+			  			 {"type": "Location" , "name" : "Fly Comments" , "index" : "COMMENTS"}, 
+					     {"type": "EntryUI"  , "name" : "General" , "location" : "COMMENTS", "icon" : "comment.png", "editor" : "hndlrComment"},
+					     {"type": "EntryUI"  , "name" : "Image" , "location" : "COMMENTS", "icon" : "comment.png", "editor" : "hndlrImage"},
+					     {"type": "Separator", "index" : "COMMENTS"},
+					     {"type": "Location" , "name" : "Suggestions" , "index" : "COMMENTS.SUGGESTIONS"},
+					     {"type": "EntryUI"  , "name" : "New location" , "location" : "COMMENTS.SUGGESTIONS", "icon" : "comment.png", "editor" : "hndlrComment"},
+					     {"type": "EntryUI"  , "name" : "New bait" , "location" : "COMMENTS.SUGGESTIONS", "icon" : "comment.png", "editor" : "hndlrComment"},
+					     {"type": "Location" , "name" : "Feedback" , "index" : "COMMENTS.FEEDBACK"},
+					     {"type": "EntryUI"  , "name" : "Event timing" , "location" : "COMMENTS.FEEDBACK", "icon" : "comment.png", "editor" : "hndlrComment"},
+					     {"type": "EntryUI"  , "name" : "Event location" , "location" : "COMMENTS.FEEDBACK", "icon" : "comment.png", "editor" : "hndlrComment"},	
+			  			 {"type": "Location" , "name" : "Observation" , "index" : "OBSERVATION"}, 
+					     {"type": "EntryUI"  , "name" : "Improvement" , "location" : "OBSERVATION", "icon" : "observation.png", "editor" : "hndlrComment"},
+					     {"type": "EntryUI"  , "name" : "Complaint" , "location" : "OBSERVATION", "icon" : "observation.png", "editor" : "hndlrComment"},
+			  			 {"type": "Location" , "name" : "Report" , "index" : "REPORT"}, 
+					     {"type": "EntryUI"  , "name" : "Location Report"  , "location" : "REPORT", "icon" : "report.png", "editor" : "hndlrComment"},
+					     {"type": "EntryUI"  , "name" : "Planning Report"  , "location" : "REPORT", "icon" : "report.png", "editor" : "hndlrComment"},
+			  			 {"type": "Location" , "name" : "Weather" , "index" : "WEATHER"}, 
+					     {"type": "EntryUI"  , "name" : "Weather Observation" , "location" : "WEATHER", "icon" : "weather.png", "editor" : "hndlrWeather"},
+					     {"type": "EntryUI"  , "name" : "Weather Forecast" , "location" : "WEATHER", "icon" : "weather.png", "editor" : "hndlrWeather"},
+			  			 {"type": "Location" , "name" : "Catch" , "index" : "CATCH"}, 
+					     {"type": "EntryUI"  , "name" : "Catch" , "location" : "CATCH", "icon" : "catch.png", "editor" : "hndlrCatch"},				     
+					     {"type": "EntryUI"  , "name" : "Lost" , "location" : "CATCH", "icon" : "catch.png", "editor" : "hndlrCatch"}				     
+					   ]   	
+		      }
+}
+);

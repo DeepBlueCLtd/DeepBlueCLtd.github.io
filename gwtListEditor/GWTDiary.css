@@ -1,0 +1,141 @@
+/** Add css rules here for your application. */
+	/** Example rules used by the template application (remove for your app) */
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #777777;
+	margin: 40px 0px 70px;
+	text-align: center;
+}
+
+.sendButton {
+	display: block;
+	font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+	width: 400px;
+}
+
+.dialogVPanel {
+	margin: 5px;
+}
+
+.serverResponseLabelError {
+	color: red;
+}
+
+.TypeLabel {
+	color: white;
+	background-color: #333;
+	text-align: center;
+	font-weight: bold;
+	width: 100%;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+	margin: 15px 6px 6px;
+}
+
+.EntryPanel {
+	/*border: 1px solid gray;*/
+	/*background-color: white;*/
+	margin: 2px;
+	/*width: auto;
+	height:auto;*/
+}
+
+.EditorPanel { /*border: 1px solid gray;
+	background-color: white;
+	margin: 2px;*/
+	background-color: white;
+	/*position:relative;
+	width: auto;
+	height:auto;*/
+}
+
+.dDocument {
+	width: 100%;
+}
+
+.dEntry {
+	padding-top: 1px;
+/*	width: 100%;*/
+}
+
+#entryType,#eDate {
+	font-weight: bold;
+}
+
+#editorType {
+	display: none;
+}
+
+.clsHidden {
+	display: none;
+}
+
+.block {
+	display: block;
+}
+
+.EntryFloat {
+	
+}
+
+.eSelectedBright {
+	background: #E0EDFE;
+	border-color: white;
+	border-style: none;
+	background-repeat: no-repeat;
+	/*background-image: url("css_images/selected.png");*/
+}
+
+.eSelectedDark {
+	background: #000000;
+	border-color: white;
+	border-style: none;
+	background-repeat: no-repeat;
+	/*background-image: url("css_images/selected.png");*/
+}
+
+#eVisibility {
+	background-repeat: no-repeat;
+	color: transparent;
+}
+
+#eVisibility.Private {
+	background-image: url("css_images/red.gif");
+}
+
+#eVisibility.Club {
+	background-image: url("css_images/amber.gif");
+}
+
+#eVisibility.Family {
+	background-image: url("css_images/green.gif");
+}
+
+#eVisibility.Public {
+	
+}
+
+.LabelWidgetPanel {
+	float: left;
+}
+
+.labelWidget {
+	float: left;
+	width: 70px;
+	margin-left: 1px;
+	align: right;
+}
+
+.LabelTextArea {
+	overflow: auto;
+	/*white-space: nowrap;*/
+	width: 95%;
+	height: 95%
+}
