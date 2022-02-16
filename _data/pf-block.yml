@@ -76,6 +76,11 @@ section:
       - paragraph: 'Having been entrusted with development of the Fleet Narrative Tool for the Royal Navy since the mid 90’s, the Deep Blue C team have recently upgraded the software to give Office 2000 compliance, together with a feature rationalisation that will allow the narrative-keeper to focus on essential events.'
       - paragraph: 'Support for surface narrative-keeping is complete, and it is hoped that support for submarine operations will follow, supported by input from relevant SMEs. In the future Deep Blue C hopes to utilise increased connectivity to grow the exploitation of command narrative data, allowing sister platforms to register (subscribe) to particular event types. This zero-overhead sharing of status information will improve group situational awareness, using standard web technologies.'
       - paragraph: 'As a technical demonstrator, in 2010 Deep Blue C developed a technical demonstrator for web-based narrative keeping. Have a look <a href="https://deepbluecltd.github.io/gwtListEditor/GWTDiary.html" class="primary-link">here</a>. Once the page has opened, try adding 100 narrative entries (<b>Generate 100</b>, from the Utilities menu). You can double-click narrative entries by double-clicking on them, or add new ones from the toolbar.'
+      - paragraph: 'In 2015 Deep Blue C investigated what a "new take" on a narrative editor could look like. A palette of dynamic
+      controls on the right-hand side are used to both track activity on board, and to trigger new events.  Each time a new event
+      is triggered a time-stamepd pending entry is added to the bottom of the left-hand timeline. Note how the timeline entries can be
+      filtered, and then exported to PDF.  Play with the demonstrator <a href="https://deepbluecltd.github.io/narr-next/">here</a>. For an 
+      alternate perspective on the data that focusses more on the timeline, experiment with expanding the timeline (using the arrow at the top), then double-clicking on a category of entry on the right-hand side to choose new events.'
 
   - title: 'Fleet Lessons Management<span>system</span>'
     id-nav: 'flms'
