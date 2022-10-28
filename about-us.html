@@ -262,7 +262,7 @@ title: About us - Deep Blue C
                                 <path d="M265.238 126.515L214.444 18.0797C212.922 14.8312 209.777 12.6466 206.202 12.3548L83.9481 2.37674C80.4335 2.08989 77.0275 3.67535 74.9843 6.5494L4.07393 106.294C1.98531 109.232 1.63948 113.066 3.16878 116.331L54.0996 225.039C55.6244 228.294 58.7783 230.48 62.3609 230.765L184.338 240.483C187.844 240.762 191.238 239.18 193.278 236.316L264.327 136.558C266.42 133.62 266.768 129.782 265.238 126.515Z" fill="url(#{{ member.image_id }})" stroke="#2E3690" stroke-width="4"/>
                             </svg>
                         </div>
-                        <h4 class="title-4 mt-4 mb-2">{{ member.title }}</h4>
+                        <h4 id="{{image_id}}" class="title-4 mt-4 mb-2">{{ member.title }}</h4>
                         <p class="team-card__subtitle mb-3">{{ member.subtitle }}</p>
                         {% for entry in member.text %}
                             <p>{{ entry.paragraph }}</p>
